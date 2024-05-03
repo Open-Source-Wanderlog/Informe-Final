@@ -139,10 +139,42 @@ URL del video completo:[ Open Source - Entrevista completa](https://drive.google
 
 En esta sección se presenta el Empathy Mapping, herramienta para crear un perfil detallado de los user personas y desarrollar una comprensión profunda de su perspectiva y experiencia.
 
+**_User Journey Mapping 1: Viajeros Ocasionales_**
+
+![alt text](<../assets/imgs/journey-1.png>)
+
+**_User Journey Mapping 2: Viajes Escolares_**
+
+![alt text](<../assets/imgs/journey-2.png>)
+
+### 2.3.4. Empathy Mapping
+
+En esta sección se presenta el Empathy Mapping, herramienta para crear un perfil detallado de los user personas y desarrollar una comprensión profunda de su perspectiva y experiencia.
+
 **_Empathy Mapping 1: Viajeros Ocasionales_**
 
 ![alt text](<../assets/imgs/empathy-1.png>)
 
-**_Empathy Mapping 2: Viajes Escolares_**
+**_Empathy Mapping 2: Viaje Escolar_**
 
 ![alt text](<../assets/imgs/empathy-2.png>)
+
+### 2.3.5. As-is Scenario Mapping
+
+En esta sección se presentan los As-is Scenario mapping para ambos segmentos objetivos donde se identifican y comprenden los puntos de contacto entre el usuario y el software. Para la elaboración se ha utilizado la herramienta Miro.
+
+**_As-is Scenario Mapping 1: Viajeros Ocasionales_**
+
+![alt text](<../assets/imgs/as-is-1.png>)
+
+- **Link Miro:**
+
+    https://miro.com/welcomeonboard/R1hPclRQRnB2NDZ2Z2pNc0tlcVBpZEphY2ZCM2R2b3Z3bXk5ZVJqVVdmb3lhemJoNFJUTGtHSDZ3dk8wSVd6S3wzNDU4NzY0NTIzMzkyNzcyNTQxfDI=?share_link_id=951002780585 
+
+**_As-is Scenario Mapping 2: Viajes Escolares_**
+
+![alt text](<../assets/imgs/as-is-2.png>)
+
+- **Link Miro**
+
+    https://miro.com/welcomeonboard/Vmg4NVhLcEo2cERoU0psTWlXYm1XN013VXZ4SDd0SGluUkIwckRPMmNtb2RWM0RvcXRPaDBQQ0s4Wm1iQm90YnwzNDU4NzY0NTIzMzkyNzcyNTQxfDI=?share_link_id=742893825014 
