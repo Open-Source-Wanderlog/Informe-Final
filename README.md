@@ -155,21 +155,6 @@
                 <br><br>TB2<br>
                 xxx</td>
                 <td>Nos aseguramos de trabajar de forma coordinada y eficaz, avanzando lo más posible en una cantidad de tiempo límite. Para lograrlo, tuvimos que trabajar como equipo y discutir las decisiones importantes de manera organizada y objetiva. Para la realización de este trabajo hemos coordinado satisfactoriamente cada punto de este informe.</td>
-                <td>Adición de la sección y documentación del Sprint 1 <br></br>
-                Adición de la estructura esencial del informe, incluyendo su documentación, de los siguientes componentes:
-                <br></br> - La carátula.
-                <br> - El registro de versiones.
-                <br> - La tabla de contenidos.
-                <br> - La tabla de Student Outcomes.
-                <br> - Capítulo I: Introducción.
-                <br> - Capítulo II: Requirements Elicitation & Analysis.
-                <br> - Capítulo III: Requirements Specification.
-                <br> - Capítulo IV: Product Design.
-                <br> - Capítulo V: Product Implementation, Validation & Deployment.
-                <br> - El Sprint 1.
-                <br> - Las conclusiones y recomendaciones.
-                <br> - La bibliografía.
-                <br> - Los anexos.</td>
             </tr>
             <tr>
                 <td>Conoce al menos un sector empresarial o dominio de aplicación de soluciones de software.</td>
@@ -204,6 +189,8 @@
                 xxx
                 <br><br>TB2<br>
                 xxx</td>
+                <td>
+                    Nos aseguramos de tener toda la información necesaria para entender el sector empresarial en el que nos vamos a involucrar, y poder usarla correctamente para el desarrollo de nuestra solución. Para hacerlo tuvimos que investigar sobre los problemas del sector, y las herramientas que usamos.</td>
             </tr> 
         </tbody>
 </table>
