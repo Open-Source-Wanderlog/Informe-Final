@@ -1418,3 +1418,54 @@ A continuación se presentan capturas de los insights del repositorio del landin
 <img src="assets/imgs/networkGraphSprint3.2.png" alt=""></img>
 <img src="assets/imgs/networkGraphSprint3.3.png" alt=""></img>
 
+# Bibliografía
+
+- GitHub Documentation (2023). GitHub Pages. Retrieved from https://docs.github.com/en/pages 
+- MDN Web Docs (2023). HTML: HyperText Markup Language. Retrieved from https://developer.mozilla.org/en-US/docs/Web/HTML 
+- Nielsen, J., & Molich, R. (1990). Heuristic evaluation of user interfaces. Proceedings of the SIGCHI conference on Human factors in computing systems, 249-256. https://dl.acm.org/doi/10.1145/97243.97281 
+- Cooper, A., Reimann, R., Cronin, D., & Noessel, C. (2014). About Face: The Essentials of Interaction Design. Wiley. https://www.wiley.com/en-us/About+Face%3A+The+Essentials+of+Interaction+Design%2C+4th+Edition-p-9781118766576 
+- ISO/IEC 25010:2011. (2011). Systems and software engineering—Systems and software Quality Requirements and Evaluation (SQuaRE)—System and software quality models. International Organization for Standardization. https://www.iso.org/standard/35733.html 
+- Krug, S. (2014). Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability. New Riders. https://www.dontmakemethink.com 
+
+
+# Conclusiones:
+
+## TB1
+En la primera parte del proyecto la TB1, se realizaron avances significativos en la elaboración del informe y en el desarrollo de la primera versión de la landing page de nuestro aplicativo WanderLog. Este periodo se centró en establecer las bases del proyecto, definiendo claramente los objetivos, los alcances y las herramientas que se utilizarán a lo largo del desarrollo.
+
+***Avances del Informe:***
+
+**Documentación Inicial:** Se completó una primera versión del informe que incluye una descripción detallada del entorno de desarrollo, la gestión del código fuente y las guías de estilo para asegurar la consistencia del código.
+Configuración del Entorno: Se detallaron las herramientas y plataformas utilizadas, como UXPressia, Figma, Vertabelo, LucidChart, GitHub, Visual Studio Code, y GitHub Pages, proporcionando enlaces y explicaciones claras para que cualquier miembro del equipo pueda integrarse fácilmente al proyecto.
+
+***Desarrollo de la Landing Page:***
+
+**Diseño Inicial:** Se desarrolló la primera versión de la landing page utilizando HTML5 y CSS3, enfocándose en una estructura básica y una apariencia visual que atrajera a los usuarios.
+Colaboración en Figma: Se utilizaron wireframes y mockups en Figma para planificar y validar el diseño de la landing page, permitiendo un desarrollo colaborativo y efectivo.
+
+Estos avances sentaron las bases para el desarrollo futuro del aplicativo, asegurando que todos los miembros de nuestro equipo estén alineados y puedan trabajar de manera eficiente.
+
+## TP
+En la segunda parte del proyecto, correspondiente a la TP, se avanzó significativamente en la mejora de la landing page y en la implementación del aplicativo web. Este periodo se centró en refinar los elementos existentes y en avanzar en las funcionalidades clave del aplicativo, cumpliendo con los objetivos establecidos para el sprint 2.
+
+***Mejora de la Landing Page:***
+
+**Optimización y Mejora Visual:** Se realizaron mejoras en el diseño y la usabilidad de la landing page, basadas en el feedback recibido y en pruebas de usuario, utilizando herramientas como LucidChart para mapear user flows y asegurar una experiencia de usuario óptima.
+Implementación de Nuevas Funcionalidades: Se añadieron funcionalidades adicionales a la landing page, mejorando la interactividad y el atractivo visual, utilizando técnicas avanzadas de CSS3 y JavaScript.
+
+***Implementación del Aplicativo Web:***
+
+**Desarrollo Inicial:** Se comenzó con la implementación del aplicativo web, abarcando todas las tareas planificadas para el sprint 2. Esto incluyó la implementación de las primeras funcionalidades del frontend.
+Integración Continua: Se utilizó GitHub para el control de versiones y GitHub Pages para el despliegue continuo de la landing page, asegurando que las mejoras y nuevas características estén disponibles para ser revisadas y testeadas por el equipo y los stakeholders.
+
+Estos logros representan un avance significativo hacia la finalización del proyecto WanderLog. La mejora continua de la landing page y la implementación progresiva del aplicativo web han preparado el camino para los próximos sprints, manteniendo un enfoque en la calidad y la usabilidad del producto final.
+
+
+## Anexos:
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218735_upc_edu_pe/ER82WZRpdZlDkHibR3MJudYBZjXlHqDMQWRt9k4gOY2_pQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xai08m 
+
+About The Team Video: https://drive.google.com/file/d/1VWajPaKk_53zcs6x5cnhkcA_iXew0tTj/view?usp=sharing
+
+About The Product Video: https://drive.google.com/file/d/1glcTdkEZDnHPymEBUvxey_MVqTIJaRQ3/view?usp=sharing
+
+Exposition Video: https://drive.google.com/file/d/1MRwRPiJ1eD4CjcaDS3znNS6zAxdtaGHZ/view?usp=sharing
