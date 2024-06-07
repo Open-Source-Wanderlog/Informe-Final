@@ -1468,4 +1468,4 @@ About The Team Video: https://drive.google.com/file/d/1VWajPaKk_53zcs6x5cnhkcA_i
 
 About The Product Video: https://drive.google.com/file/d/1glcTdkEZDnHPymEBUvxey_MVqTIJaRQ3/view?usp=sharing
 
-Exposition Video: https://drive.google.com/file/d/1MRwRPiJ1eD4CjcaDS3znNS6zAxdtaGHZ/view?usp=sharing
+Exposition Video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114545_upc_edu_pe/Edp9_QfT2FJFh2zz2OFLRPUBtsir_uoLIcR6EAg4oQNL-w?e=GsYkYL&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
