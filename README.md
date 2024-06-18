@@ -1254,24 +1254,57 @@ Con esta información, cualquier miembro de nuestro equipo podrá familiarizarse
 ### 5.1.2. Source Code Management
 El manejo del código fuente es crucial para el éxito del proyecto. Utilizamos Git como sistema de control de versiones y GitHub como plataforma para alojar nuestros repositorios. A continuación, se detalla el flujo de trabajo y las prácticas que seguimos:
 
-- Organización del equipo: https://github.com/Open-Source-Wanderlog 
-- Repositorio landing page:https://github.com/Open-Source-Wanderlog/landing-page 
-- Despliegue de landing page en Netlify: https://graceful-mousse-7d861d.netlify.app 
+- **Organización del equipo:** https://github.com/Open-Source-Wanderlog 
+- **Repositorio landing page:**https://github.com/Open-Source-Wanderlog/landing-page 
+- **Despliegue de landing page en Netlify:** https://graceful-mousse-7d861d.netlify.app
+- **Repositorio Frontend:**  https://github.com/Open-Source-Wanderlog/frontend-project.git
+- **Repositorio Backend:** https://github.com/Open-Source-Wanderlog/wanderlog-backend.git
+
+Adicionalmente, para mejorar el control de nuestro proyecto usamos GitFlow para la creación de ramas y cambios en el código fuente. Es por ello que se manejan dos ramas principales: `main`, `develop`.
+
+- **MAIN:** La rama `main` almacena el historial oficial de las publicaciones de nuestro repositorio listas para producción.
+- **DEVELOP:** Esta rama sirve para integrar las características *(features)*.
+
+    En nuestro caso hemos decidido implementar la rama `'develop'`.
+
+    Esta rama es la rama principal donde se integra todas las características. Cuando se completa una característica, se fusionan con `'develop'`. Todas las rams de características deben fusionarse con `'develop'`.
+
+    Ejemplo de flujo de trabajo con GitFlow:
+
+    1. Se crea una rama de `"feature"` a partir de la rama develop
+    2. Se trabaja en la rama de `'feature'`
+    3. Se hace un merge de la rama de `'feature'` a la rama develop
+
+**RAMAS AUXILIARES:**
+- **Feature:** Para desarrollar nuevas funcionalidades o mejoras a partir de la rama develop y juntarlas con ellas al terminar. Estas ramas permiten trbajar en el código sin afectar a la estabilidad de la rama principal, en este caso `'develop'`. Y facilitan la revisión y el control de las características antes de integrarlas.
+  
+  Para la implementación de las ramas `'features'`, nosotros hemos implementado la siguiente nomenclatura: `'feature/feature-name'`.
+
+  Donde:
+    - **Feature:** Es el nombre de la rama.
+    - **Feature-name:** Es el nombre de la características que se está desarrollando.
+  
+  Ejemplo Report:
+    - `'feature/chapter-1.1'`. Indicando el capitulo a implementar.
+
+  Ejemplo Landing Page:
+    - `'feature/html-structure'`. Indicando la sección a implementar.
+
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
 **HTML Style Guide and Coding Conventions**
 Es necesario seguir convenciones estandarizadas de HTML como estructura de la web. Entre las principales de W3 Schools (https://www.w3schools.com/html/html5_syntax.asp) podemos mencionar:
 
-- Siempre declarar el tipo de documento con <!DOCTYPE html>
-- Usar siempre letras en minúsculas para los nombres de los elementos (como <p>, <h1>, <section>, entre otros).
-- Cerrar siempre con los elementos de HTML (por ejemplo <p></p>)
-- Siempre poner entre comillas los atributos dentro de un elemento html ( <p class=”name”></p>)
+- Siempre declarar el tipo de documento con `<!DOCTYPE html>`
+- Usar siempre letras en minúsculas para los nombres de los elementos (como `<p>`, `<h1>`, `<section>`, entre otros).
+- Cerrar siempre con los elementos de HTML (por ejemplo `<p></p>`)
+- Siempre poner entre comillas los atributos dentro de un elemento html ( `<p class=”name”></p>` )
 - Especificar alt, width, and height para imágenes.
 - Espaciado y signo igual estandarizados.
 - Evitar líneas de código extensas.
-- No olvidar el “<title></title>” al principio.
-- Es posible evitar el “<head></head>”.
+- No olvidar el `“<title></title>”` al principio.
+- Es posible evitar el `“<head></head>”`.
 - Utilizar meta tags al inicio.
 
 **Google HTML/CSS Style Guide**
@@ -1282,7 +1315,7 @@ Algunas de las convenciones de Google en cuanto a HTML y CSS (https://google.git
 - Usar comillas dobles para los valores de atributos.
 - Usar una nueva línea para cada elemento.
 - Usar un espacio después de los dos puntos del nombre de cada propiedad.
-- Usar códigos de color hexadecimal (#000000) en vez de nombres propios.
+- Usar códigos de color hexadecimal `(#000000)` en vez de nombres propios.
 - Usar códigos de color hexadecimales abreviados siempre que sea posible.
 - Evitar especificar unidades para valores 0. Por ejemplo, margin: 0px se incluye la unidad de pixeles.
 
@@ -1291,11 +1324,34 @@ Algunas de las convenciones de Google en cuanto a HTML y CSS (https://google.git
 - Usamos ESLint para asegurar un código limpio y sin errores comunes.
 - Adherimos a la guía de estilo de Airbnb para JavaScript.
 - Usamos Prettier para formatear el código automáticamente.
+  - Nombrar las variables y funciones con camelcase, como `"numberArray"`
+  - Usar comillas simples para los string como `'This is a string'`
+  - Usar punto y como `(;)` al final de cada sentencia
+  - Evitar declarar variables con `var` y usar `let` o `const` en su lugar
 
 ### 5.1.4. Software Deployment Configuration
-Se utilizará GitHub
+En esta sección, se describen los pasos para configurar y desplegar la landing page utilizando Visual Stuido Code, para el despliegar el Frontedn utilizando AngularCLI y para el Backend se usará IntelliJ IDEA Ultimate. Estos pasos son cruciales para asegurar que la aplicación web esté disponible y funcione sin problemas para los usuarios finales.
 
-<img src="assets/imgs/img-softwareDeplymentConfig.png"  alt=" "></img>
+- Configuración del Entorno de Desarrollo para Landing Page:
+  Instalar y configurar Visual Studio Code según las preferencias y necesidad del proyecto.
+
+  Instalar extensiones útiles para el desarrollo web, como `"HTML CSS Support"` y `"Live Server"`, que faciliten la creación y visualización de la landing page.
+
+  <img src="assets/img/img-HTMLCSSSupport.png" alt=" "></img>
+
+  <img src="assets/img/img-LiveServer.png" alt=" "></img>
+
+<img src="assets/img/img-softwareDeplymentConfig.png"  alt=" "></img>
+
+<br>
+
+- Configuración del Entorno de Desarrollo para Frontend:
+
+<br>
+
+- Configuración del Entorno de Desarrollo para Backend:
+
+<br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
@@ -1417,6 +1473,156 @@ A continuación se presentan capturas de los insights del repositorio del landin
 <img src="assets/imgs/networkGraphSprint3.1.png" alt=""></img>
 <img src="assets/imgs/networkGraphSprint3.2.png" alt=""></img>
 <img src="assets/imgs/networkGraphSprint3.3.png" alt=""></img>
+
+## 5.3. Validation Interviews
+En esta sección se detalla el proceso de validación mediante entrevistas con usuarios y expertos. Estas entrevistas son cruciales para evaluar la usabilidad, funcionalidad y eficacia de la aplicación Wnaderlog, garantizando que cumple con las necesidades y expectativas de nuestros segmentos de mercado.
+
+### 5.3.1. Diseño de Entrevistas
+Se decribe la metodología utilizada para diseñar las entrevistas de validación, incluyendo la selección de participantes, la formulación de preguntas y el enfoque adaptaddo para obtener información relevante y precisa sobre la experiencia del usuario con la aplicación Wnaderlog.
+
+**Segmento Objetivo 1: Viajeros Turísticos:**
+- Segun lo visto, ¿qué te parecio la estructuración de la página?
+- ¿Cuálles son los puntos de mejora?
+- ¿Crees que la aplicación es intuitiva y fácil de usar?
+- ¿Se te dificulto alguna sección de la aplicación?
+- ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+
+**Segmento Objetivo 2: Viajeros Escolares**
+- Segun lo visto, ¿qué te parecio la estructuración de la página?
+- ¿Cuálles son los puntos de mejora?
+- ¿Crees que la aplicación es intuitiva y fácil de usar?
+- ¿Se te dificulto alguna sección de la aplicación?
+- ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+
+### 5.3.2. Registro de Entrevistas
+Esta subsección presenta un registro detallado de las entrevistas realizadas, documentando las respuestas de los participantes, las observaciones clave y los comentarios obtenidos durante las sesiones de validación. Estos registros proporcionan una base sólida para el análisis y la mejora del producto.
+
+**Segmento Objetivo 1: Viajeros Turísticos**
+-------------------------------------------
+**Entrevistado(a) #1:**
+**Sexo:**
+**Edad:**
+**Ocupación**
+**Minuto de la entrevista:**
+**Enlace del video completo de las entrevistas:**
+
+<br>
+
+**Resumen de la entrevista:**
+
+<br>
+
+**Entrevistado(a) #2:**
+**Sexo:**
+**Edad:**
+**Ocupación**
+**Minuto de la entrevista:**
+**Enlace del video completo de las entrevistas:**
+
+<br>
+
+**Resumen de la entrevista:**
+
+<br>
+
+**Entrevistado(a) #3:**
+**Sexo:**
+**Edad:**
+**Ocupación**
+**Minuto de la entrevista:**
+**Enlace del video completo de las entrevistas:**
+
+<br>
+
+**Resumen de la entrevista:**
+
+<br>
+
+**Segmento Objetivo 2: Viajeros Escolares**
+-------------------------------------------
+**Entrevistado(a) #1:**
+**Sexo:**
+**Edad:**
+**Ocupación**
+**Minuto de la entrevista:**
+**Enlace del video completo de las entrevistas:**
+
+<br>
+
+**Resumen de la entrevista:**
+
+<br>
+
+**Entrevistado(a) #2:**
+**Sexo:**
+**Edad:**
+**Ocupación**
+**Minuto de la entrevista:**
+**Enlace del video completo de las entrevistas:**
+
+<br>
+
+**Resumen de la entrevista:**
+
+<br>
+
+**Entrevistado(a) #3:**
+**Sexo:**
+**Edad:**
+**Ocupación**
+**Minuto de la entrevista:**
+**Enlace del video completo de las entrevistas:**
+
+<br>
+
+**Resumen de la entrevista:**
+
+<br>
+
+
+### 5.3.3. Evaluación según heurísticas
+Aquí se explican las evaluaciones realizadas utilizando principios heurísticos de usabilidad. Se analizan los resultados obtenidos y se identifican áreas de mejora en la interfaz y la funcionalidad de la aplicación, con el fin de optimizar la experiencia del usuario y asegurar la eficacia del producto.
+
+**UX Heuristics & Principles Evaluation Usability - Inclusive Design - Information Architecture**
+
+**Carrera:** Ingeniería de Software
+**Curso:** Desarrollo de Aplicaciones Open Source
+**Sección:** WX56
+**Profesores:** Todos
+**Cliente(s):**
+
+**Site o App a Evaluar:** Wanderlog
+
+**Tareas a Evaluar:**
+**Escala de Severidad:**
+Los errores serán puntiados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|-------|-------------|
+|   1   | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+|   2   | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara resolverlo al siguiente release. |
+|   3   | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+|   4   | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**Tabla Resumen:**
+
+| # | Problema | Escala de Severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|---------------------|
+| 1 | | | |
+
+<br>
+
+**Descripción del Problemas:**
+- **Problema #1:**
+- **Severidad:**
+- **Heurística/Principio violada(o):**
+- **Problema:**
+- **Recomendación:**
+<br>
+
+
+## 5.4. Video About-The-Product
+En esta sección se presenta un video explicatiovo sobre la aplicación Wanderlog. El video destaca las principales características y beneficios del producto, demostrando cómo stisface las necesidad de los viajeros. Este recurso visual es esencial para comunicar de manera efectiva el valor de la apliación a potenciales usuarios e inversores.
 
 # Bibliografía
 
