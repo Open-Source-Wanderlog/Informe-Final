@@ -1337,11 +1337,11 @@ En esta sección, se describen los pasos para configurar y desplegar la landing 
 
   Instalar extensiones útiles para el desarrollo web, como `"HTML CSS Support"` y `"Live Server"`, que faciliten la creación y visualización de la landing page.
 
-  <img src="assets/img/img-HTMLCSSSupport.png" alt=" "></img>
+  <img src="assets/imgs/img-HTMLCSSSupport.png" alt=" "></img>
 
-  <img src="assets/img/img-LiveServer.png" alt=" "></img>
+  <img src="assets/imgs/img-LiveServer.png" alt=" "></img>
 
-<img src="assets/img/img-softwareDeplymentConfig.png"  alt=" "></img>
+<img src="assets/imgs/img-softwareDeplymentConfig.png"  alt=" "></img>
 
 <br>
 
