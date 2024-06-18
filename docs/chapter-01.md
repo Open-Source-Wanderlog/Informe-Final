@@ -120,6 +120,8 @@ Para solucionarlo queremos proporcionar a los viajeros una solución fácil de u
 
 #### 1.2.2.4. Lean UX Canvas
 
+Herramienta visual que permite analizar y comprender a profundidad las necesidades de los usuarios de WanderLog.
+
 ![Lean UX Canvas](<../assets/imgs/LeanUXCanvas.png>)
 
 ## 1.3. Segmentos objetivo
