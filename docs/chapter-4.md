@@ -249,10 +249,12 @@ La pantalla de elección de viajes turísticos se centra en permitir seleccionar
 
 ![alt text](<../assets/imgs/img21-app wireframe 5.png>)
 
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Se ha empleado de la herramienta en línea "Figma" para diseñar los Wireflow Diagrams, los cuales permiten combinar representaciones visuales simplificadas de las pantallas del aplicativo con diagramas de flujo, ilustrando cómo los usuarios pueden interactuar con el aplicativo por medio de un flujo de pantallas.
 
 **Link del figma**: https://www.figma.com/file/rP99xLB3zucajdvaxBP7Ax/Untitled?type=design&node-id=0%3A1&mode=design&t=qnaHxqkizVdElFjC-1 
 
-### 4.4.2. Web Applications Wireflow Diagrams
 ![alt text](<../assets/imgs/img22-wireflow diagram.png>)
 
 ### 4.4.3. Web Applications Mock-Ups
@@ -279,6 +281,8 @@ La pantalla de perfil permite al usuario visualizar su información personal y l
 ![alt text](<../assets/imgs/img27-app mockup 5.png>)
 
 ### 4.4.4. Web Applications User Flow Diagrams
+
+Se ha utilizado la herramnienta en línea de "Figma" para mostrar la forma como navvegan los usuarios el aplicativo las rutas esperadas y alternas, usando mock-ups y basándose en los Wireflow Diagrams.
 
 **Link del figma**: https://www.figma.com/file/rP99xLB3zucajdvaxBP7Ax/Untitled?type=design&node-id=9%3A519&mode=design&t=qnaHxqkizVdElFjC-1
 
