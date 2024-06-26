@@ -1965,6 +1965,56 @@ En el alcance del sprint 3, se realizaron testing del backend.
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+Durante este sprint, se ha mejorado el back-end y front-end de una API integral utilizando Java. Además, se ha realizado la conexión entre ambos. Esta API proporciona una amplia gama de funcionalidades.
+
+<table>
+  <tr>
+    <th>Endpoint</th>
+    <th>Acción</th>
+    <th>Verbo HTTP</th>
+    <th>Sintaxis de Llamada</th>
+    <th>Parámetros</th>
+    <th>Ejemplo de Llamada</th>
+    <th>Explicación del Response</th>
+  </tr>
+  <tr>
+    <td>/users</td>
+    <td>Obtener</td>
+    <td>GET</td>
+    <td>/api/users</td>
+    <td>-</td>
+    <td>GET /api/users</td>
+    <td>200 OK: Devuelve a todos los usuarios.</td>
+  </tr>
+  <tr>
+    <td>/reservations</td>
+    <td>Listado	</td>
+    <td>GET</td>
+    <td>/api/reservations</td>
+    <td>-</td>
+    <td>GET /api/reservations</td>
+    <td>200 OK: Devuelve a todos los paquetes reservados.</td>
+  </tr>
+  <tr>
+    <td>/student-travel-package</td>
+    <td>Listado</td>
+    <td>GET</td>
+    <td>/api/student-travel-package</td>
+    <td>-</td>
+    <td>GET /api/student-travel-package</td>
+    <td>200 OK: Devuelve todos los paquetes estudiantiles.</td>
+  </tr>
+  <tr>
+    <td>/travelDestinations</td>
+    <td>Listar</td>
+    <td>GET</td>
+    <td>/api/wanderlog/v1/travelDestinations</td>
+    <td>-</td>
+    <td>GET /api/wanderlog/v1/travelDestination</td>
+    <td>200 OK: Devuelve una lista de todos los destinos de viaje.</td>
+  </tr>
+</table>
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 <img src="assets/imgs/evidenceDeploymentSprint3.1.png" alt=""></img>
 
