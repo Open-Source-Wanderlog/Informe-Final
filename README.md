@@ -2148,57 +2148,48 @@ Interfaz de Reservas realizadas. En caso que un usuario no haya realizado reserv
 
 <img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-reservations.png"></img>
 
-#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+## 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Durante este sprint, se ha mejorado el back-end y front-end de una API integral utilizando Java. Además, se ha realizado la conexión entre ambos. Esta API proporciona una amplia gama de funcionalidades.
+Durante este sprint, se ha desarrollado una Fake API de abogados que proporciona información sobre abogados ficticios. La API incluye detalles como el nombre del abogado, años de experiencia, especialización, casos ganados, tarifa por hora, correo electrónico y número de teléfono.
 
-<table>
-  <tr>
-    <th>Endpoint</th>
-    <th>Acción</th>
-    <th>Verbo HTTP</th>
-    <th>Sintaxis de Llamada</th>
-    <th>Parámetros</th>
-    <th>Ejemplo de Llamada</th>
-    <th>Explicación del Response</th>
-  </tr>
-  <tr>
-    <td>/users</td>
-    <td>Obtener</td>
-    <td>GET</td>
-    <td>/api/users</td>
-    <td>-</td>
-    <td>GET /api/users</td>
-    <td>200 OK: Devuelve a todos los usuarios.</td>
-  </tr>
-  <tr>
-    <td>/reservations</td>
-    <td>Listado	</td>
-    <td>GET</td>
-    <td>/api/reservations</td>
-    <td>-</td>
-    <td>GET /api/reservations</td>
-    <td>200 OK: Devuelve a todos los paquetes reservados.</td>
-  </tr>
-  <tr>
-    <td>/student-travel-package</td>
-    <td>Listado</td>
-    <td>GET</td>
-    <td>/api/student-travel-package</td>
-    <td>-</td>
-    <td>GET /api/student-travel-package</td>
-    <td>200 OK: Devuelve todos los paquetes estudiantiles.</td>
-  </tr>
-  <tr>
-    <td>/travelDestinations</td>
-    <td>Listar</td>
-    <td>GET</td>
-    <td>/api/wanderlog/v1/travelDestinations</td>
-    <td>-</td>
-    <td>GET /api/wanderlog/v1/travelDestination</td>
-    <td>200 OK: Devuelve una lista de todos los destinos de viaje.</td>
-  </tr>
-</table>
+| Endpoint                                                                       | Acción     | Verbo HTTP | Sintaxis de Llamada                                                | Parámetros                   | Ejemplo de Llamada                                                                | Explicación del Response                                      |
+|--------------------------------------------------------------------------------|------------|------------|--------------------------------------------------------------------|------------------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| /users                                                                         | Listar     | GET        | /api/users                                                         | -                            | GET /api/users                                                                    | 200 OK: Devuelve una lista de todos los usuarios.             |
+| /users/{id}                                                                    | Obtener    | GET        | /api/users/{id}                                                    | ID de usuario                | GET /api/users/1                                                                  | 200 OK: Devuelve los detalles del usuario con el ID especificado.  |
+| /users                                                                         | Crear      | POST       | /api/users                                                         | Datos del usuario            | POST /api/users                                                                   | 201 Created: Crea un nuevo usuario.                           |
+| /users/{id}                                                                    | Actualizar | PUT        | /api/users/{id}                                                    | ID de usuario, datos del usuario | PUT /api/users/1                                                               | 200 OK: Actualiza los detalles del usuario con el ID especificado.   |
+| /users/{id}                                                                    | Eliminar   | DELETE     | /api/users/{id}                                                    | ID de usuario                | DELETE /api/users/1                                                                | 200 OK: Elimina el usuario con el ID especificado.            |
+| /student-travel-packages                                                       | Listar     | GET        | /api/student-travel-packages                                       | -                            | GET /api/student-travel-packages                                                   | 200 OK: Devuelve una lista de todos los paquetes de viaje estudiantiles. |
+| /student-travel-packages/{id}                                                  | Obtener    | GET        | /api/student-travel-packages/{id}                                  | ID del paquete               | GET /api/student-travel-packages/1                                                 | 200 OK: Devuelve los detalles del paquete de viaje estudiantil con el ID especificado. |
+| /student-travel-packages                                                       | Crear      | POST       | /api/student-travel-packages                                       | Datos del paquete            | POST /api/student-travel-packages                                                  | 201 Created: Crea un nuevo paquete de viaje estudiantil.      |
+| /student-travel-packages/{id}                                                  | Actualizar | PUT        | /api/student-travel-packages/{id}                                  | ID del paquete, datos del paquete | PUT /api/student-travel-packages/1                                            | 200 OK: Actualiza los detalles del paquete con el ID especificado.  |
+| /student-travel-packages/{id}                                                  | Eliminar   | DELETE     | /api/student-travel-packages/{id}                                  | ID del paquete               | DELETE /api/student-travel-packages/1                                               | 200 OK: Elimina el paquete con el ID especificado.            |
+| /reservations                                                                  | Listar     | GET        | /api/reservations                                                  | -                            | GET /api/reservations                                                              | 200 OK: Devuelve una lista de todas las reservas.             |
+| /reservations/{id}                                                             | Obtener    | GET        | /api/reservations/{id}                                             | ID de la reserva             | GET /api/reservations/1                                                            | 200 OK: Devuelve los detalles de la reserva con el ID especificado.  |
+| /reservations                                                                  | Crear      | POST       | /api/reservations                                                  | Datos de la reserva          | POST /api/reservations                                                             | 201 Created: Crea una nueva reserva.                          |
+| /reservations/{id}                                                             | Actualizar | PUT        | /api/reservations/{id}                                             | ID de la reserva, datos de la reserva | PUT /api/reservations/1                                                      | 200 OK: Actualiza los detalles de la reserva con el ID especificado.   |
+| /reservations/{id}                                                             | Eliminar   | DELETE     | /api/reservations/{id}                                             | ID de la reserva             | DELETE /api/reservations/1                                                         | 200 OK: Elimina la reserva con el ID especificado.            |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions    | Listar     | GET        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions    | travelDestinationId          | GET /api/wanderlog/v1/travelDestinations/1/touristicAttractions                    | 200 OK: Devuelve una lista de todas las atracciones turísticas del destino especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions/{id} | Obtener  | GET        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions/{id} | travelDestinationId, id      | GET /api/wanderlog/v1/travelDestinations/1/touristicAttractions/1                  | 200 OK: Devuelve los detalles de la atracción turística con el ID especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions    | Crear      | POST       | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions    | travelDestinationId, datos de la atracción | POST /api/wanderlog/v1/travelDestinations/1/touristicAttractions              | 201 Created: Crea una nueva atracción turística para el destino especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions/{id} | Actualizar | PUT       | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions/{id} | travelDestinationId, id, datos de la atracción | PUT /api/wanderlog/v1/travelDestinations/1/touristicAttractions/1        | 200 OK: Actualiza los detalles de la atracción turística con el ID especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions/{id} | Eliminar | DELETE     | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/touristicAttractions/{id} | travelDestinationId, id      | DELETE /api/wanderlog/v1/travelDestinations/1/touristicAttractions/1              | 200 OK: Elimina la atracción turística con el ID especificado.            |
+| /wanderlog/v1/travelDestinations                                               | Listar     | GET        | /api/wanderlog/v1/travelDestinations                                | -                            | GET /api/wanderlog/v1/travelDestinations                                          | 200 OK: Devuelve una lista de todos los destinos de viaje.   |
+| /wanderlog/v1/travelDestinations/{id}                                          | Obtener    | GET        | /api/wanderlog/v1/travelDestinations/{id}                           | ID del destino                | GET /api/wanderlog/v1/travelDestinations/1                                        | 200 OK: Devuelve los detalles del destino de viaje con el ID especificado.   |
+| /wanderlog/v1/travelDestinations                                               | Crear      | POST       | /api/wanderlog/v1/travelDestinations                                | Datos del destino             | POST /api/wanderlog/v1/travelDestinations                                         | 201 Created: Crea un nuevo destino de viaje.                 |
+| /wanderlog/v1/travelDestinations/{id}                                          | Actualizar | PUT        | /api/wanderlog/v1/travelDestinations/{id}                           | ID del destino, datos del destino | PUT /api/wanderlog/v1/travelDestinations/1                                  | 200 OK: Actualiza los detalles del destino de viaje con el ID especificado.   |
+| /wanderlog/v1/travelDestinations/{id}                                          | Eliminar   | DELETE     | /api/wanderlog/v1/travelDestinations/{id}                           | ID del destino                | DELETE /api/wanderlog/v1/travelDestinations/1                                     | 200 OK: Elimina el destino de viaje con el ID especificado.            |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies            | Listar     | GET        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies            | travelDestinationId          | GET /api/wanderlog/v1/travelDestinations/1/flyCompanies                           | 200 OK: Devuelve una lista de todas las compañías aéreas para el destino especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies/{id}       | Obtener    | GET        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies/{id}       | travelDestinationId, id      | GET /api/wanderlog/v1/travelDestinations/1/flyCompanies/1                         | 200 OK: Devuelve los detalles de la compañía aérea con el ID especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies            | Crear      | POST       | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies            | travelDestinationId, datos de la compañía aérea | POST /api/wanderlog/v1/travelDestinations/1/flyCompanies                   | 201 Created: Crea una nueva compañía aérea para el destino especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies/{id}       | Actualizar | PUT        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies/{id}       | travelDestinationId, id, datos de la compañía aérea | PUT /api/wanderlog/v1/travelDestinations/1/flyCompanies/1               | 200 OK: Actualiza los detalles de la compañía aérea con el ID especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies/{id}       | Eliminar   | DELETE     | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/flyCompanies/{id}       | travelDestinationId, id      | DELETE /api/wanderlog/v1/travelDestinations/1/flyCompanies/1                     | 200 OK: Elimina la compañía aérea con el ID especificado.            |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/hotels                  | Listar     | GET        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/hotels                   | travelDestinationId          | GET /api/wanderlog/v1/travelDestinations/1/hotels                                | 200 OK: Devuelve una lista de todos los hoteles para el destino especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/hotels/{id}             | Obtener    | GET        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/hotels/{id}             | travelDestinationId, id      | GET /api/wanderlog/v1/travelDestinations/1/hotels/1                              | 200 OK: Devuelve los detalles del hotel con el ID especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/hotels                  | Crear      | POST       | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/hotels                   | travelDestinationId, datos del hotel | POST /api/wanderlog/v1/travelDestinations/1/hotels                          | 201 Created: Crea un nuevo hotel para el destino especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/hotels/{id}             | Actualizar | PUT        | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/hotels/{id}             | travelDestinationId, id, datos del hotel | PUT /api/wanderlog/v1/travelDestinations/1/hotels/1                     | 200 OK: Actualiza los detalles del hotel con el ID especificado. |
+| /wanderlog/v1/travelDestinations/{travelDestinationId}/hotels/{id}             | Eliminar   | DELETE     | /api/wanderlog/v1/travelDestinations/{travelDestinationId}/hotels/{id}             | travelDestinationId, id      | DELETE /api/wanderlog/v1/travelDestinations/1/hotels/1                          | 200 OK: Elimina el hotel con el ID especificado.            |
+
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 <img src="assets/imgs/evidenceDeploymentSprint3.1.png" alt=""></img>
