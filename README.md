@@ -2097,15 +2097,57 @@ En el alcance del sprint 3, se realizaron testing del backend.
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
-<img src="assets/imgs/executionSprint2.1.png" alt=""></img>
-<img src="assets/imgs/executionSprint2.2.png" alt=""></img>
-<img src="assets/imgs/executionSprint2.3.png" alt=""></img>
-<img src="assets/imgs/executionSprint2.4.png" alt=""></img>
-<img src="assets/imgs/executionSprint3.1.png" alt=""></img>
-<img src="assets/imgs/executionSprint3.2.png" alt=""></img>
-<img src="assets/imgs/executionSprint3.3.png" alt=""></img>
-<img src="assets/imgs/executionSprint3.4.png" alt=""></img>
+Interfaz del Landing Page, con su toolbar que incluye el logo de WanderLog, los 5 botones que redirigen a distintas secciones del landing page, sin incluir el último que inicia el flujo del aplicativo web, una sección hero image y una sección About Us, con detalles sobre la startup.
 
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/landingpage-1.png"></img>
+
+Sección About Wanderlog and About Us con detalles del equipo que brinda la solución web. Debajo, la sección de servicios brindados en el aplicativo para nuestros 2 segmentos objetivos.
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/landingpage-2.png"></img>
+
+Sección The Creators of Wanderlog, con presentación del equipo creativo de Wanderlog
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/landingpage-3.png"></img>
+
+Sección Testimonials sobre la experiencia que se guardaron algunos usuarios del aplicativo 
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/landingpage-4.png"></img>
+
+Sección News and Contact Us, donde el usuario puede ingresar su correo electrónico y contactarse con el equipo de WanderLog
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/landingpage-5.png"></img>
+
+Demostración del funcionaimento del Sidebar bajo ciertas dimensiones del Landing Page
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/landingpage-6.png"></img>
+
+Interfaz de Login del usuario
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-login.png"></img>
+
+Interfaz de Registro del usuario
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-register.png"></img>
+
+Interfaz Home del aplicativo Web, donde el usuario inicia su flujo presionando los botones disponibles en el toolbar o centro del aplicativo
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-home.jpg"></img>
+
+Interfaz de listado de paquetes estudiantiles disponibles. Se puede presionar un botón para ver el detallado de cada uno.
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-studenttravelpackages.jpg"></img>
+
+Interfaz del detallado sobre cada paquete estudiantil seleccionado. Se puede presionar un botón para reservar dicho paquete, que se vincula con el id del usuario y el id del paquete seleccionado.
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-packagedetails.png"></img>
+
+Mensaje de una reserva realizada de manera exitosa, guardando registro en el backend.
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-packagereserved.png"></img>
+
+Interfaz de Reservas realizadas. En caso que un usuario no haya realizado reservas, se encontrará vacía. Caso contrario, demostrará el id de la reserva y la opción de cancelarla presionando un botón "Cancelar".
+
+<img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-reservations.png"></img>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
