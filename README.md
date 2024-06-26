@@ -1346,30 +1346,125 @@ En esta sección, se describen los pasos para configurar y desplegar la landing 
 <br>
 
 - Configuración del Entorno de Desarrollo para Frontend:
+  <img src="assets/imgs/img-configuracion-frontend.png" alt=" "></img>
 
 <br>
 
 - Configuración del Entorno de Desarrollo para Backend:
+  <img src="assets/imgs/img-configuracion-backend1.png" alt=" "></img>
+  <img src="assets/imgs/img-configuracion-backend2.png" alt=" "></img>
 
 <br>
 
 ## 5.2. Landing Page, Services & Applications Implementation
 ### 5.2.1. Sprint 1
 #### 5.2.1.1. Sprint Planning 1
-<img src="assets/imgs/sprint1.png" alt=""></img>
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 1</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>2024-04-22</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>7 días</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Virtual</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Attendees</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Sprint Review Summary</th>
+    <td>El enfoque de este sprint estuvo centrado en desarrollar el landing page que sea dinámica y atractiva.</td>
+  </tr>
+  <tr>
+    <th>Sprint Retrospective Summary</th>
+    <td>En este sprint, se planea realizar el landing page</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal</th>
+    <td>Desplegar la primera versión del Landing Page</td>
+  </tr>
+  <tr>
+    <th>Sprint Velocity</th>
+    <td>50 Puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>53 Puntos</td>
+  </tr>
+</table>
+
 
 #### 5.2.1.2. Sprint Backlog 1
 
-<img src="assets/imgs/sprintBacklog1.1.png" alt=""></img>
-<img src="assets/imgs/sprintBacklog1.2.png" alt=""></img>
-<img src="assets/imgs/sprintBacklog1.3.png" alt=""></img>
-<img src="assets/imgs/sprintBacklog1.4.png" alt=""></img>
-<img src="assets/imgs/sprintBacklog1.5.png" alt=""></img>
+| User Story        |                   | Work Item/Task |               |                                                    |                   |                 |        |
+|:------------------|:-----------------:|:--------------:|:-------------:|:--------------------------------------------------:|:-----------------:|:---------------:|:------:|
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-01          | Creación de Landing Page Atractiva | TA-1   | Diseño inicial de la Landing Page | Se elabora un diseño inicial de la estructura del landing page. | (3hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-01          | Creación de Landing Page Atractiva | TA-2   | Selección de paleta de colores y elementos gráficos | Se selecciona la paleta de colores previamente definida y elementos gráficos visualmente atractivos. | (1hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-01          | Creación de Landing Page Atractiva | TA-3   | Implementación del diseño atractivo | Se implementa en el código el diseño atractivo. | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-02          | Material audiovisual | TA-4   | Selección y/o creación de material audiovisual  | Se selecciona y/o crea material audiovisual, ya sean imágenes, animaciones, o vídeos.  | (2hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-02          | Material audiovisual | TA-5   | Implementación del material audiovisual en la Landing Page  | Se integra el material audiovisual seleccionado en el landing page.  | (2hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-03          | Implementación de diseño moderno | TA-6   | Implementación de diseño moderno de Landing page  | Se aplican tendencias modernas de diseño web.  | (1hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-04          | Implementación de tipografía legible | TA-7   | Selección e integración de tipografías legibles  | Se eligen tipografías fáciles de leer que complementen con el diseño de la landing page.  | (1hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+| US-05          | Menor cantidad de texto | TA-8   | Reducción y Optimización de texto  | Se simplifica la cantidad de texto usada en el landing page, usando principalmente frases para comunicar la propuesta de valor.  | (1hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-06          | Interfaz intuitiva para comprender la propuesta de Wanderlog | TA-9   | Diseño de la interfaz intuitiva  | Se diseña la estructura de la interfaz intuitiva del aplicativo.  | (2hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-06          | Interfaz intuitiva para comprender la propuesta de Wanderlog | TA-10   | Implementación de la interfaz intuitiva  | Se implementa la interfaz intuitiva creada.  | (1hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-07          | Implementación de responsive en la landing page | TA-11   | Diseño de interfaces para cada dispositivo  | Se crean las interfaces de la Landing Page que se adapten a  las pantallas de computadoras, tablets y celulares.  | (4hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+| US-07          | Implementación de responsive en la landing page | TA-12   | Ajuste de la estructura web en base al tamaño de pantalla  | Se define la lógica que determina qué interfaz responsive se va a mostrar dependiendo del tamaño de pantalla del usuario.  | (1hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+| US-08          | Sección de “Contacto” WanderLog en landing page | TA-13   | Diseño de la interfaz “Contacto”  | Se construye la interfaz donde se describen los medios de contacto con la Startup.  | (3hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+| US-09          | Sección”Sobre Nosotros” en landing page | TA-14   | Diseño de la interfaz “Sobre los nosotros”  | Se construye la interfaz donde aparece información sobre los integrantes de la startup  | (3hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-11          | Sección “Suscripción a noticias” en landing page | TA-15   | Diseño del formulario  | Se diseña la estructura y diseño del botón.  | (1hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-11          | Sección “Suscripción a noticias” en landing page | TA-16   | Diseño de la interfaz “Suscripción”  | Se construye la interfaz donde el usuario puede ingresar su correo en el formulario para recibir noticias y promociones.  | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-12          | Sección “Testimonios” en landing page | TA-17   | Diseño de la interfaz “Testimonios”  | Se construye la interfaz donde se muestran testimonios surgientes de otros usuarios.  | (3hr)                 | Díaz Silva, Fernando   | Done   |
+| US-13          | Agregar botón de “Inicio de sesión” | TA-18   | Diseño del botón  |Se diseña la estructura y diseño del botón.  | (1hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-13          | Agregar botón de “Inicio de sesión” | TA-19   | Funcionalidad de routing  |Se aplica routing hacia la interfaz de “Inicio de Sesión”.  | (1hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-17          | Implementación de las redes sociales | TA-20   | Diseño de íconos para las redes sociales  |Incorporación de los íconos de las redes sociales en el toolbar y footer.  | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-18          | Visualización de derechos de autor | TA-21   | Implementación de la sección de derechos de autor  |Diseñar la sección para mostrar la información sobre los derechos de autor de forma clara y visible.  | (1hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-19          | Sección “Sobre la Startup” en el landing page | TA-22   | Redacción el contenido para la sección  |Elaborar textos descriptivos sobre la startup, su misión y visión.   | (2hr)                 | Díaz Silva, Fernando   | Done   |
+| US-19          | Sección “Sobre la Startup” en el landing page | TA-23   | Diseño e implementación de la sección “Sobre la Startup”  |Diseñar y desarrollar la sección “Sobre la Startup” en el landing page.   | (3hr)                 | Díaz Silva, Fernando   | Done   |
+| US-21          | Implementación de sección “Colaboradores” con escuelas | TA-24   | Diseño del espacio para los logos con las escuelas colaboradoras  |Crear un apartado en la landing page, donde se puedan visualizar todos los logos de las escuelas colaboradoras.   | (2hr)                 | Díaz Silva, Fernando   | Done   |
+| US-22          | Implementación de sección de “Servicios” | TA-25   | Diseño e implementación de la sección “Servicios”   |CElaborar una sección en la cual se pueda visualizar y describir de manera clara , los servicios que tenemos disponibles (servicio de paquetes turísticos y paquetes escolares)   | (2hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+
 
 #### 5.2.1.3. Development Evidence for Sprint Review
 
-<img src="assets/imgs/evidenceSprint1.1.png" alt=""></img>
-<img src="assets/imgs/evidenceSprint1.2.png" alt=""></img>
+| Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
+|------------|----------|-----------|---------------|-------------------|
+| U202114545/Open-Source-Wanderlog/landing-page | main | 6b1aacf | Initial commit | | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | u202114545/template-subscription | 6b1aacf | Initial commit | | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | u202114545/template-subscription | 6b1aacf…4d6cc73 | My sprint 1 commits | | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 6b1aacf…3e85887 | Create index.html | | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 3e85887…486c436 | Create styles.css | | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 486c436…6318356 | Create script.js | | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | develop | d0c4f96 | docs: Update Landing | | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main |  | Delete branch | | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | develop | d0c4f96…d1ee071 | Últimos arreglos del Landing Page | | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | develop | d1ee071…0c66064 | Create static.yml | | 29/05/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | 6318356 | Create script.js | | 04/05/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | 6318356…c031f99 | Testimonios añadidos. | | 04/05/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | c031f99…ea31907 | Testimonio - Sobre Nosotros - Sobre la Startup | | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 6318356 | Create script.js | | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 6318356…176726d | feat: Added contact and services | | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 176726d…89bd616 | feat: Added images services | | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | main | 6318356…2e9020a | feat: Update version landing page | | 17/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | main | 2e9020a…d0c4f96 | docs: Update Landing | | 29/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | master | d0c4f96 | docs: Update Landing | | 29/05/2024 |
+| Karito07/Open-Source-Wanderlog/landing-page | u20221c769/about-us | 6318356 | Create script.js | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/landing-page | u20221c769/about-us | f488643…959242a | feat: Added about-us in styles.css | | 04/05/2024 |
+
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
 En el alcance del sprint 1, no se realizaron testing de la aplicación al haber solo trabajado en el landing page.
@@ -1394,16 +1489,104 @@ A continuación se presentan capturas de los insights del repositorio del landin
 
 ### 5.2.2. Sprint 2
 #### 5.2.2.1. Sprint Planning 2
-<img src="assets/imgs/sprint2.png" alt=""></img>
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 2</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>26/04/2024</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>9 días</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Virtual</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Attendees</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Sprint Review Summary</th>
+    <td>US- 10: Exploración de destinos populares (8 us. points)
+  
+Como viajero ocasional, quiero poder explorar una variedad de destinos populares y obtener recomendaciones personalizadas para inspirarme en mi próximo viaje.
+
+US- 14: Registro de cuenta de usuario  (5 us. points)
+
+Como viajero ocasional, quiero poder registrarme fácilmente en la plataforma para acceder a todas las funcionalidades del aplicativo
+
+US- 16: Sección de ofertas especiales  (5 us. points)
+
+Como viajero ocasional, quiero ver una sección de ofertas especiales en la página de inicio para acceder a descuentos exclusivos en vuelos y alojamientos
+
+US- 20:Sección de paquetes estudiantiles (8 us. points)
+
+Como padre interesado en los servicios ofrecidos por el aplicativo, quiero encontrar una sección dedicada a los paquetes estudiantiles en el sitio web, para obtener información sobre ofertas especiales, descuentos y servicios dirigidos específicamente a estudiantes como mis hijos.
+</td>
+  </tr>
+  <tr>
+    <th>Sprint Retrospective Summary</th>
+    <td>En esta sección todos los integrantes mencionaron tener aciertos en partes del código y en otras partes poder mejorar sus habilidades realizando el FrontEnd Web Application</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal</th>
+    <td>Desplegar la primera versión del Aplicativo web</td>
+  </tr>
+  <tr>
+    <th>Sprint Velocity</th>
+    <td>18 Puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>26 Puntos</td>
+  </tr>
+</table>
 
 #### 5.2.2.2. Sprint Backlog 2
 
-<img src="assets/imgs/sprintBacklog2.1.png" alt=""></img>
-<img src="assets/imgs/sprintBacklog2.2.png" alt=""></img>
+| User Story        |                   | Work Item/Task |               |                                                    |                   |                 |        |
+|:------------------|:-----------------:|:--------------:|:-------------:|:--------------------------------------------------:|:-----------------:|:---------------:|:------:|
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-10          | Exploración de destinos populares | TA-1   | Diseño de botón para la exploración de destinos populares | Se elabora un botón que llevará a la exploración de los destinos populares | (1hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+| US-14          | Registro de cuenta de usuario | TA-2   | Diseño de interfaz de usuario | Se elabora el diseño de interfaz de usuario del perfil | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-15          | Agregar botón de “Explorar ahora” | TA-3   | Diseño del botón para “Explorar ahora” | Se elabora el diseño del botón para explorar ahora los viajes | (1hr)                 | Castilla Pachas Cesar Antonio   | Done   |
+| US-16          | Sección de ofertas especiales | TA-4   | Diseño de la sección para el detalle de las ofertas especiales  | Se elabora el diseño para la interfaz de la sección de las ofertas especiales  | (2hr)                 | Castilla Pachas Cesar Antonio   | Done   |
+| US-20          | Sección de paquetes estudiantiles | TA-5   | Sección de paquetes estudiantiles  | Se elabora los paquetes de los estudiantes  | (3hr)                 | Cortés Casas, Joaquín Marcelo   | To-do   |
+| US-23          | Implementación de sección “Planes” | TA-6   | Diseño para la sección de los planes  | Se elabora el diseño de interfaz de la sección de planes  | (3hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-24          | Visualización del costo total del plan de viajes | TA-7   | Visualización del costo total del plan de viajes  | Se elabora la visualización de los costos totales de los planes de viajes  | (3hr)                 | Medina Chocce, Karito Dianeth   | To-do   |
+| US-26          | Implementación de apartado que incluya información detallada del servicio turístico seleccionado | TA-9   | Acceso a información detallada  | Se elabora el acceso a la información más detallada  | (3hr)                 | Díaz Silva, Fernando Josué   | To-do   |
+| US-27          | Búsqueda avanzada de servicios turísticos con filtros | TA-10   | Búsqueda avanzada con filtros  | Se implementa una búsqueda accesible por filtros para una mayor comodidad de los usuarios  | (4hr)                 | Cortés Casas, Joaquín Marcelo   | To-do   |
+| US-28          | Recomendación en base a viajes | TA-11   | Recomendación de viajes  | Se implementa las recomendaciones de viajes en base a viajes recientes  | (2hr)                 | Castilla Pachas, Cesar Antonio   | To-do   |
+| US-29          | Compartir planes de viajes | TA-12   | Compartir viaje  | Se implementa la opción de compartir viajes  | (1hr)                 | Medina Chocce, Karito Dianeth   | To-do   |
+| US-30          | Función de reseñas y valoraciones de servicios turísticos | TA-13   | Reseñas y Valoraciones  | Se implementa la opción de añadir reseñas y valoración sobre los servicios turísticos.  | (3hr)                 | Díaz Silva, Fernando Josué   | To-do   |
+
 
 #### 5.2.2.3. Development Evidence for Sprint Review
 
-<img src="assets/imgs/evidenceSprint2.1.png" alt=""></img>
+| Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
+|------------|----------|-----------|---------------|-------------------|
+| CesarrAnn/Open-Source-Wanderlog/app-web | feature/Homepages | 69fa21d | feat: update styles | | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/app-web | master | f25d5fb | Initial commit | | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/app-web | feature/UserProfile | f25d5fb | Initial commit | | 04/05/2024 |
+| U202114545/Open-Source-Wanderlog/app-web | feature/UserProfile | f25d5fb…db1858d | My sprint 2 contribution | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f25d5fb | Initial commit | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f25d5fb…5f9d2a3 | Create fiel plans | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | 5f9d2a3…f6cf5db | Delete src/app/plans | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f6cf5db…e63d0a5 | Create plans.component.css | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | e63d0a5…4d30fc6 | feat: Added plans.component | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | 4d30fc6…e73c894 | Create assets | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | e73c894…d1fcb0a | feat: Added assets images | | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | d1fcb0a…9f7ec04 | Delete src/assets/… | | 04/05/2024 |
+
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
 En el alcance del sprint 2, no se realizaron testing de la aplicación al haber solo trabajado en el landing page.
@@ -1429,17 +1612,92 @@ A continuación se presentan capturas de los insights del repositorio del landin
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning 3
-<img src="assets/imgs/sprint3.png" alt=""></img>
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 3</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>3/06/2024</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>5 días</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Virtual</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Attendees</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Sprint Review Summary</th>
+    <td>En el sprint anterior se ha logrado mejorar el landing page. Además, se ha adjuntado la primera versión del aplicativo web. 
+</td>
+  </tr>
+  <tr>
+    <th>Sprint Retrospective Summary</th>
+    <td>Existe la oportunidad de mejora en ambos Landing Page y Aplicativo Web, para brindar un mayor nivel de calidad y consistencia.</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal</th>
+    <td>Desplegar la tercera versión del Landing Page
+Desplegar la segunda versión del Aplicativo web
+Desplegar la primera versión del Backend
+</td>
+  </tr>
+  <tr>
+    <th>Sprint Velocity</th>
+    <td>15 Puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>24 Puntos</td>
+  </tr>
+</table>
+
 
 #### 5.2.3.2. Sprint Backlog 3
 
-<img src="assets/imgs/sprintBacklog3.1.png" alt=""></img>
-<img src="assets/imgs/sprintBacklog3.2.png" alt=""></img>
+| User Story        |                   | Work Item/Task |               |                                                    |                   |                 |        |
+|:------------------|:-----------------:|:--------------:|:-------------:|:--------------------------------------------------:|:-----------------:|:---------------:|:------:|
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-10          | Exploración de destinos populares | TA-1   | Diseño de botón para la exploración de destinos populares | Se elabora un botón que llevará a la exploración de los destinos populares | (1hr)                 | Castilla Pachas, Cesar Antonio   | To-Do   |
+| US-14          | Registro de cuenta de usuario | TA-2   | Diseño de interfaz de usuario | Se elabora el diseño de interfaz de usuario del perfil | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-15          | Agregar botón de “Explorar ahora” | TA-3   | Diseño del botón para “Explorar ahora” | Se elabora el diseño del botón para explorar ahora los viajes | (1hr)                 | Castilla Pachas Cesar Antonio   | Done   |
+| US-16          | Sección de ofertas especiales | TA-4   | Diseño de la sección para el detalle de las ofertas especiales  | Se elabora el diseño para la interfaz de la sección de las ofertas especiales  | (2hr)                 | Castilla Pachas Cesar Antonio   | To-Do   |
+| US-20          | Sección de paquetes estudiantiles | TA-5   | Sección de paquetes estudiantiles  | Se elabora los paquetes de los estudiantes  | (3hr)                 | Cortés Casas, Joaquín Marcelo   | To-do   |
+| US-23          | Implementación de sección “Planes” | TA-6   | Diseño para la sección de los planes  | Se elabora el diseño de interfaz de la sección de planes  | (3hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-24          | Visualización del costo total del plan de viajes | TA-7   | Visualización del costo total del plan de viajes  | Se elabora la visualización de los costos totales de los planes de viajes  | (3hr)                 | Medina Chocce, Karito Dianeth   | To-do   |
+| US-28          | Recomendación en base a viajes previos | TA-11   | Registro y uso de viajes previos del usuario  | Se establece un historial en cuanto a los viajes previos del usuario y se muestra en pantalla los puntos de destino más deseables  | (2hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
 
 #### 5.2.3.3. Development Evidence for Sprint Review
 
-<img src="assets/imgs/evidenceSprint3.1.png" alt=""></img>
-<img src="assets/imgs/evidenceSprint3.2.png" alt=""></img>
+| Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
+|------------|----------|-----------|---------------|-------------------|
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44 |Estructura básica del landing | | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44…6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/user | 6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 9873f44 |Estructura básica del landing | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore |  |Deleted branch | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 2677da6 |Merge the feature/principal | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44 |Estructura básica del landing | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44…9a80753 |docs: Added Homepages | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9a80753…ab28ca4 |docs: Added Homepages | | 06/06/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/wanderlog-backend | main | 6fa45b8 |Initial commit | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | b4c337f…cd43057 |added images | | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | cd43057…51ae949 |Added images | | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | 51ae949…6a7bf09 |Added images | | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c |Initial commit | | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c…b4c337f  |Add files via updload | | 07/06/2024 |
+
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review
 En el alcance del sprint 3, se realizaron testing del backend.
@@ -1468,6 +1726,129 @@ En el alcance del sprint 3, se realizaron testing del backend.
 <img src="assets/imgs/evidenceDeploymentSprint3.1.png" alt=""></img>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint 
+A continuación se presentan capturas de los insights del repositorio del landing page en Github:
+
+<img src="assets/imgs/networkGraphSprint3.1.png" alt=""></img>
+<img src="assets/imgs/networkGraphSprint3.2.png" alt=""></img>
+<img src="assets/imgs/networkGraphSprint3.3.png" alt=""></img>
+
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning 4
+<table>
+  <tr>
+    <th>Sprint #</th>
+    <td>Sprint 4</td>
+  </tr>
+  <tr>
+    <th>Sprint Planning Background</th>
+    <td>3/06/2024</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>5 días</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>Virtual</td>
+  </tr>
+  <tr>
+    <th>Prepared By</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Attendees</th>
+    <td> Cortés Casas, Joaquín Marcelo / Díaz Silva, Fernando Josué / Castilla Pachas, Cesar Antonio / Medina Chocce, Karito Dianeth </td>
+  </tr>
+  <tr>
+    <th>Sprint Review Summary</th>
+    <td>En el sprint anterior se ha logrado mejorar el landing page. Además, se ha adjuntado la primera versión del aplicativo web. 
+</td>
+  </tr>
+  <tr>
+    <th>Sprint Retrospective Summary</th>
+    <td>Existe la oportunidad de mejora en ambos Landing Page y Aplicativo Web, para brindar un mayor nivel de calidad y consistencia.</td>
+  </tr>
+  <tr>
+    <th>Sprint Goal</th>
+    <td>Desplegar la tercera versión del Landing Page
+Desplegar la segunda versión del Aplicativo web
+Desplegar la primera versión del Backend
+</td>
+  </tr>
+  <tr>
+    <th>Sprint Velocity</th>
+    <td>15 Puntos</td>
+  </tr>
+  <tr>
+    <th>Sum of Story Points</th>
+    <td>24 Puntos</td>
+  </tr>
+</table>
+
+
+#### 5.2.4.2. Sprint Backlog 4
+
+| User Story        |                   | Work Item/Task |               |                                                    |                   |                 |        |
+|:------------------|:-----------------:|:--------------:|:-------------:|:--------------------------------------------------:|:-----------------:|:---------------:|:------:|
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-10          | Exploración de destinos populares | TA-1   | Diseño de botón para la exploración de destinos populares | Se elabora un botón que llevará a la exploración de los destinos populares | (1hr)                 | Castilla Pachas, Cesar Antonio   | To-Do   |
+| US-14          | Registro de cuenta de usuario | TA-2   | Diseño de interfaz de usuario | Se elabora el diseño de interfaz de usuario del perfil | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
+| US-15          | Agregar botón de “Explorar ahora” | TA-3   | Diseño del botón para “Explorar ahora” | Se elabora el diseño del botón para explorar ahora los viajes | (1hr)                 | Castilla Pachas Cesar Antonio   | Done   |
+| US-16          | Sección de ofertas especiales | TA-4   | Diseño de la sección para el detalle de las ofertas especiales  | Se elabora el diseño para la interfaz de la sección de las ofertas especiales  | (2hr)                 | Castilla Pachas Cesar Antonio   | To-Do   |
+| US-20          | Sección de paquetes estudiantiles | TA-5   | Sección de paquetes estudiantiles  | Se elabora los paquetes de los estudiantes  | (3hr)                 | Cortés Casas, Joaquín Marcelo   | To-do   |
+| US-23          | Implementación de sección “Planes” | TA-6   | Diseño para la sección de los planes  | Se elabora el diseño de interfaz de la sección de planes  | (3hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-24          | Visualización del costo total del plan de viajes | TA-7   | Visualización del costo total del plan de viajes  | Se elabora la visualización de los costos totales de los planes de viajes  | (3hr)                 | Medina Chocce, Karito Dianeth   | To-do   |
+| US-28          | Recomendación en base a viajes previos | TA-11   | Registro y uso de viajes previos del usuario  | Se establece un historial en cuanto a los viajes previos del usuario y se muestra en pantalla los puntos de destino más deseables  | (2hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
+
+#### 5.2.4.3. Development Evidence for Sprint Review
+
+| Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
+|------------|----------|-----------|---------------|-------------------|
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44 |Estructura básica del landing | | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44…6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/user | 6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 9873f44 |Estructura básica del landing | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore |  |Deleted branch | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 2677da6 |Merge the feature/principal | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44 |Estructura básica del landing | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44…9a80753 |docs: Added Homepages | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9a80753…ab28ca4 |docs: Added Homepages | | 06/06/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/wanderlog-backend | main | 6fa45b8 |Initial commit | | 06/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | b4c337f…cd43057 |added images | | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | cd43057…51ae949 |Added images | | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | 51ae949…6a7bf09 |Added images | | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c |Initial commit | | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c…b4c337f  |Add files via updload | | 07/06/2024 |
+
+
+#### 5.2.4.4. Testing Suite Evidence for Sprint Review
+En el alcance del sprint 3, se realizaron testing del backend.
+
+<img src="assets/imgs/executionSprint3.1.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.2.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.3.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.4.png" alt=""></img>
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+<img src="assets/imgs/executionSprint2.1.png" alt=""></img>
+<img src="assets/imgs/executionSprint2.2.png" alt=""></img>
+<img src="assets/imgs/executionSprint2.3.png" alt=""></img>
+<img src="assets/imgs/executionSprint2.4.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.1.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.2.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.3.png" alt=""></img>
+<img src="assets/imgs/executionSprint3.4.png" alt=""></img>
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+<img src="assets/imgs/evidenceDeploymentSprint3.1.png" alt=""></img>
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint 
 A continuación se presentan capturas de los insights del repositorio del landing page en Github:
 
 <img src="assets/imgs/networkGraphSprint3.1.png" alt=""></img>
