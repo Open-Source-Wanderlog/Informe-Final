@@ -1227,10 +1227,6 @@ En esta sección se compartirán los prototipos relacionados a la aplicación we
 
 
 
-
-
-
-
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 Aquí tienes una versión ampliada y detallada de la sección 5.1.1. Software Development Environment Configuration de tu proyecto:
@@ -1475,27 +1471,27 @@ En esta sección, se describen los pasos para configurar y desplegar la landing 
 
 | Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
 |------------|----------|-----------|---------------|-------------------|
-| U202114545/Open-Source-Wanderlog/landing-page | main | 6b1aacf | Initial commit | | 03/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | u202114545/template-subscription | 6b1aacf | Initial commit | | 03/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | u202114545/template-subscription | 6b1aacf…4d6cc73 | My sprint 1 commits | | 03/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | main | 6b1aacf…3e85887 | Create index.html | | 03/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | main | 3e85887…486c436 | Create styles.css | | 03/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | main | 486c436…6318356 | Create script.js | | 03/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | develop | d0c4f96 | docs: Update Landing | | 29/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | main |  | Delete branch | | 29/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | develop | d0c4f96…d1ee071 | Últimos arreglos del Landing Page | | 29/05/2024 |
-| U202114545/Open-Source-Wanderlog/landing-page | develop | d1ee071…0c66064 | Create static.yml | | 29/05/2024 |
-| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | 6318356 | Create script.js | | 04/05/2024 |
-| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | 6318356…c031f99 | Testimonios añadidos. | | 04/05/2024 |
-| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | c031f99…ea31907 | Testimonio - Sobre Nosotros - Sobre la Startup | | 04/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 6318356 | Create script.js | | 04/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 6318356…176726d | feat: Added contact and services | | 04/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 176726d…89bd616 | feat: Added images services | | 04/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/landing-page | main | 6318356…2e9020a | feat: Update version landing page | | 17/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/landing-page | main | 2e9020a…d0c4f96 | docs: Update Landing | | 29/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/landing-page | master | d0c4f96 | docs: Update Landing | | 29/05/2024 |
-| Karito07/Open-Source-Wanderlog/landing-page | u20221c769/about-us | 6318356 | Create script.js | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/landing-page | u20221c769/about-us | f488643…959242a | feat: Added about-us in styles.css | | 04/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 6b1aacf | Initial commit | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | u202114545/template-subscription | 6b1aacf | Initial commit | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | u202114545/template-subscription | 6b1aacf…4d6cc73 | My sprint 1 commits | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 6b1aacf…3e85887 | Create index.html | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 3e85887…486c436 | Create styles.css | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main | 486c436…6318356 | Create script.js | 03/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | develop | d0c4f96 | docs: Update Landing | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | main |  | Delete branch | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | develop | d0c4f96…d1ee071 | Últimos arreglos del Landing Page | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/landing-page | develop | d1ee071…0c66064 | Create static.yml | 29/05/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | 6318356 | Create script.js | 04/05/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | 6318356…c031f99 | Testimonios añadidos. | 04/05/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/landing-page | u202112722/testimonials | c031f99…ea31907 | Testimonio - Sobre Nosotros - Sobre la Startup | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 6318356 | Create script.js | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 6318356…176726d | feat: Added contact and services | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | u202218735/contact-service | 176726d…89bd616 | feat: Added images services | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | main | 6318356…2e9020a | feat: Update version landing page | 17/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | main | 2e9020a…d0c4f96 | docs: Update Landing | 29/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/landing-page | master | d0c4f96 | docs: Update Landing | 29/05/2024 |
+| Karito07/Open-Source-Wanderlog/landing-page | u20221c769/about-us | 6318356 | Create script.js | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/landing-page | u20221c769/about-us | f488643…959242a | feat: Added about-us in styles.css | 04/05/2024 |
 
 
 #### 5.2.1.4. Testing Suite Evidence for Sprint Review
@@ -1606,18 +1602,18 @@ Como padre interesado en los servicios ofrecidos por el aplicativo, quiero encon
 
 | Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
 |------------|----------|-----------|---------------|-------------------|
-| CesarrAnn/Open-Source-Wanderlog/app-web | feature/Homepages | 69fa21d | feat: update styles | | 04/05/2024 |
-| CesarrAnn/Open-Source-Wanderlog/app-web | master | f25d5fb | Initial commit | | 29/05/2024 |
-| U202114545/Open-Source-Wanderlog/app-web | feature/UserProfile | f25d5fb | Initial commit | | 04/05/2024 |
-| U202114545/Open-Source-Wanderlog/app-web | feature/UserProfile | f25d5fb…db1858d | My sprint 2 contribution | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f25d5fb | Initial commit | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f25d5fb…5f9d2a3 | Create fiel plans | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | 5f9d2a3…f6cf5db | Delete src/app/plans | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f6cf5db…e63d0a5 | Create plans.component.css | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | e63d0a5…4d30fc6 | feat: Added plans.component | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | 4d30fc6…e73c894 | Create assets | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | e73c894…d1fcb0a | feat: Added assets images | | 04/05/2024 |
-| Karito07/Open-Source-Wanderlog/app-web | feature/plans | d1fcb0a…9f7ec04 | Delete src/assets/… | | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/app-web | feature/Homepages | 69fa21d | feat: update styles | 04/05/2024 |
+| CesarrAnn/Open-Source-Wanderlog/app-web | master | f25d5fb | Initial commit | 29/05/2024 |
+| U202114545/Open-Source-Wanderlog/app-web | feature/UserProfile | f25d5fb | Initial commit | 04/05/2024 |
+| U202114545/Open-Source-Wanderlog/app-web | feature/UserProfile | f25d5fb…db1858d | My sprint 2 contribution | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f25d5fb | Initial commit | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f25d5fb…5f9d2a3 | Create fiel plans | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | 5f9d2a3…f6cf5db | Delete src/app/plans | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | f6cf5db…e63d0a5 | Create plans.component.css | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | e63d0a5…4d30fc6 | feat: Added plans.component | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | 4d30fc6…e73c894 | Create assets | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | e73c894…d1fcb0a | feat: Added assets images | 04/05/2024 |
+| Karito07/Open-Source-Wanderlog/app-web | feature/plans | d1fcb0a…9f7ec04 | Delete src/assets/… | 04/05/2024 |
 
 
 #### 5.2.2.4. Testing Suite Evidence for Sprint Review
@@ -1714,21 +1710,21 @@ Desplegar la primera versión del Backend
 
 | Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
 |------------|----------|-----------|---------------|-------------------|
-| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44 |Estructura básica del landing | | 06/06/2024 |
-| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44…6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
-| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/user | 6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 9873f44 |Estructura básica del landing | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore |  |Deleted branch | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 2677da6 |Merge the feature/principal | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44 |Estructura básica del landing | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44…9a80753 |docs: Added Homepages | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9a80753…ab28ca4 |docs: Added Homepages | | 06/06/2024 |
-| fernandoodiaz/Open-Source-Wanderlog/wanderlog-backend | main | 6fa45b8 |Initial commit | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wanderlog/images-front | main | b4c337f…cd43057 |added images | | 07/06/2024 |
-| CesarrAnn/Open-Source-Wanderlog/images-front | main | cd43057…51ae949 |Added images | | 07/06/2024 |
-| CesarrAnn/Open-Source-Wanderlog/images-front | main | 51ae949…6a7bf09 |Added images | | 07/06/2024 |
-| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c |Initial commit | | 07/06/2024 |
-| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c…b4c337f  |Add files via updload | | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44 |Estructura básica del landing | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44…6b1af0e |Formularios de acceso y registro | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/user | 6b1af0e |Formularios de acceso y registro | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 9873f44 |Estructura básica del landing | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore |  |Deleted branch | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 2677da6 |Merge the feature/principal | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44 |Estructura básica del landing | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44…9a80753 |docs: Added Homepages | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9a80753…ab28ca4 |docs: Added Homepages | 06/06/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/wanderlog-backend | main | 6fa45b8 |Initial commit | 06/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | b4c337f…cd43057 |added images | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | cd43057…51ae949 |Added images | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | 51ae949…6a7bf09 |Added images | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c |Initial commit | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c…b4c337f  |Add files via updload | 07/06/2024 |
 
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review
@@ -1837,21 +1833,21 @@ Desplegar la primera versión del Backend
 
 | Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
 |------------|----------|-----------|---------------|-------------------|
-| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44 |Estructura básica del landing | | 06/06/2024 |
-| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44…6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
-| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/user | 6b1af0e |Formularios de acceso y registro | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 9873f44 |Estructura básica del landing | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore |  |Deleted branch | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 2677da6 |Merge the feature/principal | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44 |Estructura básica del landing | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44…9a80753 |docs: Added Homepages | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9a80753…ab28ca4 |docs: Added Homepages | | 06/06/2024 |
-| fernandoodiaz/Open-Source-Wanderlog/wanderlog-backend | main | 6fa45b8 |Initial commit | | 06/06/2024 |
-| CesarrAnn/Open-Source-Wanderlog/images-front | main | b4c337f…cd43057 |added images | | 07/06/2024 |
-| CesarrAnn/Open-Source-Wanderlog/images-front | main | cd43057…51ae949 |Added images | | 07/06/2024 |
-| CesarrAnn/Open-Source-Wanderlog/images-front | main | 51ae949…6a7bf09 |Added images | | 07/06/2024 |
-| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c |Initial commit | | 07/06/2024 |
-| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c…b4c337f  |Add files via updload | | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44 |Estructura básica del landing | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/signup | 9873f44…6b1af0e |Formularios de acceso y registro | 06/06/2024 |
+| U202114545/Open-Source-Wanderlog/frontend-project | origin/feature/user | 6b1af0e |Formularios de acceso y registro | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 9873f44 |Estructura básica del landing | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore |  |Deleted branch | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/explore | 2677da6 |Merge the feature/principal | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44 |Estructura básica del landing | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9873f44…9a80753 |docs: Added Homepages | 06/06/2024 |
+| CesarrAnn/Open-Source-Wnaderlog/frontend-project | origin/feature/principal | 9a80753…ab28ca4 |docs: Added Homepages | 06/06/2024 |
+| fernandoodiaz/Open-Source-Wanderlog/wanderlog-backend | main | 6fa45b8 |Initial commit | 06/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | b4c337f…cd43057 |added images | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | cd43057…51ae949 |Added images | 07/06/2024 |
+| CesarrAnn/Open-Source-Wanderlog/images-front | main | 51ae949…6a7bf09 |Added images | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c |Initial commit | 07/06/2024 |
+| U202114545/Open-Source-Wanderlog/images-front | main | 35e022c…b4c337f  |Add files via updload | 07/06/2024 |
 
 
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review
