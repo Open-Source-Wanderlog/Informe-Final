@@ -1971,103 +1971,65 @@ En esta sección se detalla el proceso de validación mediante entrevistas con u
 Se decribe la metodología utilizada para diseñar las entrevistas de validación, incluyendo la selección de participantes, la formulación de preguntas y el enfoque adaptaddo para obtener información relevante y precisa sobre la experiencia del usuario con la aplicación Wnaderlog.
 
 **Segmento Objetivo 1: Viajeros Turísticos:**
-- Segun lo visto, ¿qué te parecio la estructuración de la página?
-- ¿Cuálles son los puntos de mejora?
-- ¿Crees que la aplicación es intuitiva y fácil de usar?
-- ¿Se te dificulto alguna sección de la aplicación?
-- ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+    **Preguntas Generales**
+    - ¿Cuál es su nombre?
+    - ¿Cuál es su sexo?
+    - ¿Cuántos años tiene?
+    - ¿Cuál es su ocupación?
+        <br>
+    **Preguntas Específicas**
+    - Segun lo visto, ¿qué te parecio la estructuración de la página?
+    - ¿Cuáles son los puntos de mejora?
+    - ¿Crees que la aplicación es intuitiva y fácil de usar?
+    - ¿Se te dificulto alguna sección de la aplicación?
+    - ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
 
 **Segmento Objetivo 2: Viajeros Escolares**
-- Segun lo visto, ¿qué te parecio la estructuración de la página?
-- ¿Cuálles son los puntos de mejora?
-- ¿Crees que la aplicación es intuitiva y fácil de usar?
-- ¿Se te dificulto alguna sección de la aplicación?
-- ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+    **Preguntas Generales**
+    - ¿Cuál es su nombre?
+    - ¿Cuál es su sexo?
+    - ¿Cuántos años tiene?
+    - ¿Cuál es su ocupación?
+       <br>
+    **Preguntas Específicas**
+    - Segun lo visto, ¿qué te parecio la estructuración de la página?
+    - ¿Cuáles son los puntos de mejora?
+    - ¿Crees que la aplicación es intuitiva y fácil de usar?
+    - ¿Se te dificulto alguna sección de la aplicación?
+    - ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
 
 ### 5.3.2. Registro de Entrevistas
 Esta subsección presenta un registro detallado de las entrevistas realizadas, documentando las respuestas de los participantes, las observaciones clave y los comentarios obtenidos durante las sesiones de validación. Estos registros proporcionan una base sólida para el análisis y la mejora del producto.
 
 **Segmento Objetivo 1: Viajeros Turísticos**
 -------------------------------------------
-**Entrevistado(a) #1:**
-**Sexo:**
-**Edad:**
-**Ocupación**
-**Minuto de la entrevista:**
-**Enlace del video completo de las entrevistas:**
+**Entrevistado(a) #1:**<br>
+**Sexo:**<br>
+**Edad:**<br>
+**Ocupación**<br>
+**Minuto de la entrevista:**<br>
+**Enlace del video completo de las entrevistas:**<br>
 
 <br>
 
 **Resumen de la entrevista:**
 
-<br>
-
-**Entrevistado(a) #2:**
-**Sexo:**
-**Edad:**
-**Ocupación**
-**Minuto de la entrevista:**
-**Enlace del video completo de las entrevistas:**
-
-<br>
-
-**Resumen de la entrevista:**
-
-<br>
-
-**Entrevistado(a) #3:**
-**Sexo:**
-**Edad:**
-**Ocupación**
-**Minuto de la entrevista:**
-**Enlace del video completo de las entrevistas:**
-
-<br>
-
-**Resumen de la entrevista:**
-
-<br>
+<br><br>
 
 **Segmento Objetivo 2: Viajeros Escolares**
 -------------------------------------------
-**Entrevistado(a) #1:**
-**Sexo:**
-**Edad:**
-**Ocupación**
-**Minuto de la entrevista:**
-**Enlace del video completo de las entrevistas:**
+**Entrevistado(a) #1:**<br>
+**Sexo:**<br>
+**Edad:**<br>
+**Ocupación**<br>
+**Minuto de la entrevista:**<br>
+**Enlace del video completo de las entrevistas:**<br>
 
 <br>
 
 **Resumen de la entrevista:**
 
-<br>
-
-**Entrevistado(a) #2:**
-**Sexo:**
-**Edad:**
-**Ocupación**
-**Minuto de la entrevista:**
-**Enlace del video completo de las entrevistas:**
-
-<br>
-
-**Resumen de la entrevista:**
-
-<br>
-
-**Entrevistado(a) #3:**
-**Sexo:**
-**Edad:**
-**Ocupación**
-**Minuto de la entrevista:**
-**Enlace del video completo de las entrevistas:**
-
-<br>
-
-**Resumen de la entrevista:**
-
-<br>
+<br><br>
 
 
 ### 5.3.3. Evaluación según heurísticas
