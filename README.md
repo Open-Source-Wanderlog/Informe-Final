@@ -2034,7 +2034,7 @@ A continuación se presentan capturas de los insights del repositorio del landin
   </tr>
   <tr>
     <th>Sprint Retrospective Summary</th>
-    <td>Se trató de imp</td>
+    <td>Se implemento el backend y se agregaron funcionalidades</td>
   </tr>
   <tr>
     <th>Sprint Goal</th>
@@ -2056,15 +2056,14 @@ A continuación se presentan capturas de los insights del repositorio del landin
 | User Story        |                   | Work Item/Task |               |                                                    |                   |                 |        |
 |:------------------|:-----------------:|:--------------:|:-------------:|:--------------------------------------------------:|:-----------------:|:---------------:|:------:|
 | **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| US-10          | Exploración de destinos populares | TA-1   | Diseño de botón para la exploración de destinos populares | Se elabora un botón que llevará a la exploración de los destinos populares | (1hr)                 | Castilla Pachas, Cesar Antonio   | To-Do   |
-| US-14          | Registro de cuenta de usuario | TA-2   | Diseño de interfaz de usuario | Se elabora el diseño de interfaz de usuario del perfil | (2hr)                 | Cortés Casas, Joaquín Marcelo   | Done   |
-| US-15          | Agregar botón de “Explorar ahora” | TA-3   | Diseño del botón para “Explorar ahora” | Se elabora el diseño del botón para explorar ahora los viajes | (1hr)                 | Castilla Pachas Cesar Antonio   | Done   |
-| US-16          | Sección de ofertas especiales | TA-4   | Diseño de la sección para el detalle de las ofertas especiales  | Se elabora el diseño para la interfaz de la sección de las ofertas especiales  | (2hr)                 | Castilla Pachas Cesar Antonio   | To-Do   |
-| US-20          | Sección de paquetes estudiantiles | TA-5   | Sección de paquetes estudiantiles  | Se elabora los paquetes de los estudiantes  | (3hr)                 | Cortés Casas, Joaquín Marcelo   | To-do   |
-| US-23          | Implementación de sección “Planes” | TA-6   | Diseño para la sección de los planes  | Se elabora el diseño de interfaz de la sección de planes  | (3hr)                 | Medina Chocce, Karito Dianeth   | Done   |
-| US-24          | Visualización del costo total del plan de viajes | TA-7   | Visualización del costo total del plan de viajes  | Se elabora la visualización de los costos totales de los planes de viajes  | (3hr)                 | Medina Chocce, Karito Dianeth   | To-do   |
-| US-28          | Recomendación en base a viajes previos | TA-11   | Registro y uso de viajes previos del usuario  | Se establece un historial en cuanto a los viajes previos del usuario y se muestra en pantalla los puntos de destino más deseables  | (2hr)                 | Castilla Pachas, Cesar Antonio   | Done   |
-
+| US-38          | Almacenamiento de destinos populares | TA-1   | Implementacion del backend para destinos populares | Se elabora el bounded Context de Destinos populares para guardar los datos | (3hr)                 | Diaz Silva, Fernando Josu   | To-Do   |
+| US-39          | Almacenamiento de ofertas especiales | TA-2   | Implementación del backend para ofertas especiales | Se elabora el bounded Context de ofertas especiales para guardar los datos | (2hr)                 | Cortés Casas, Joaquín Marcelo   | To-Do   |
+| US-40          | Listado de vuelos, hostales y atracciones | TA-3   | Implementacion de una lista de viajes | Se elabora la la lista donde se mostraran los viajes  | (3hr)                 | Castilla Pachas Cesar Antonio   | Done   |
+| US-41          | Consulta de plan de suscripción  | TA-4   | Implementacion del plan de suscripción  | Se elabora el bounded context de suscripcion para que se pueda mostrar en la interfaz  | (2hr)                 | Medina Chocce, Karito Dianeth   | To-Do   |
+| US-42          | API de registro de usuario | TA-5   | Implementacion del registro de usuario  | Se elabora el bounded context de registro de usario   | (3hr)                 | Cortés Casas, Joaquín Marcelo   | To-do   |
+| US-43          | API de inicio de sesión de usuario | TA-6   | Implementacion del backend de inicio de sesion para el usario  | Se elabora la implementacion para que pueda iniciar sesion con una cuenta creada  | (3hr)                 | Diaz Silva, Fernando Josué   | Done   |
+| US-44          | Resumen del viaje planificado | TA-7   | Visualización del viaje completo del usuario  | Se elabora la visualización viaje completo vuelo, hotel y atraccion  | (3hr)                 | Medina Chocce, Karito Dianeth   | Done   |
+| US-45          | Almacenamiento de últimos viajes | TA-11   | Implementacion de los viajes recientes  | Se elabora la seccion de ultimos viajes que a realizado el usuario  | (2hr)                 | Castilla Pachas, Cesar Antonio   | To-Do   |
 #### 5.2.4.3. Development Evidence for Sprint Review
 
 | Repository | Branch  | Commit Id | Commit Message| Commited on (Date) |
@@ -2087,7 +2086,7 @@ A continuación se presentan capturas de los insights del repositorio del landin
 
 
 #### 5.2.4.4. Testing Suite Evidence for Sprint Review
-En el alcance del sprint 3, se realizaron testing del backend.
+En el alcance del sprint 4, se realizaron testing del backend.
 
 <img src="assets/imgs/executionSprint3.1.png" alt=""></img>
 <img src="assets/imgs/executionSprint3.2.png" alt=""></img>
@@ -2150,6 +2149,56 @@ Interfaz de Reservas realizadas. En caso que un usuario no haya realizado reserv
 <img src="https://raw.githubusercontent.com/Open-Source-Wanderlog/images-front/main/imgs/app-reservations.png"></img>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se ha mejorado el back-end y front-end de una API integral utilizando Java. Además, se ha realizado la conexión entre ambos. Esta API proporciona una amplia gama de funcionalidades.
+
+<table>
+  <tr>
+    <th>Endpoint</th>
+    <th>Acción</th>
+    <th>Verbo HTTP</th>
+    <th>Sintaxis de Llamada</th>
+    <th>Parámetros</th>
+    <th>Ejemplo de Llamada</th>
+    <th>Explicación del Response</th>
+  </tr>
+  <tr>
+    <td>/users</td>
+    <td>Obtener</td>
+    <td>GET</td>
+    <td>/api/users</td>
+    <td>-</td>
+    <td>GET /api/users</td>
+    <td>200 OK: Devuelve a todos los usuarios.</td>
+  </tr>
+  <tr>
+    <td>/reservations</td>
+    <td>Listado	</td>
+    <td>GET</td>
+    <td>/api/reservations</td>
+    <td>-</td>
+    <td>GET /api/reservations</td>
+    <td>200 OK: Devuelve a todos los paquetes reservados.</td>
+  </tr>
+  <tr>
+    <td>/student-travel-package</td>
+    <td>Listado</td>
+    <td>GET</td>
+    <td>/api/student-travel-package</td>
+    <td>-</td>
+    <td>GET /api/student-travel-package</td>
+    <td>200 OK: Devuelve todos los paquetes estudiantiles.</td>
+  </tr>
+  <tr>
+    <td>/travelDestinations</td>
+    <td>Listar</td>
+    <td>GET</td>
+    <td>/api/wanderlog/v1/travelDestinations</td>
+    <td>-</td>
+    <td>GET /api/wanderlog/v1/travelDestination</td>
+    <td>200 OK: Devuelve una lista de todos los destinos de viaje.</td>
+  </tr>
+</table>
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 <img src="assets/imgs/evidenceDeploymentSprint3.1.png" alt=""></img>
