@@ -2158,17 +2158,17 @@ Esta subsección presenta un registro detallado de las entrevistas realizadas, d
 
 **Segmento Objetivo 1: Viajeros Turísticos**
 -------------------------------------------
-**Entrevistado(a) #1:**<br>
-**Sexo:**<br>
-**Edad:**<br>
-**Ocupación**<br>
-**Minuto de la entrevista:**<br>
+**Entrevistado(a) #1:** Maomed Alexander Chocce Cruces<br>
+**Sexo:**Masculino<br>
+**Edad:**42 años<br>
+**Ocupación**Ingeniero de Sistemas<br>
+**Minuto de la entrevista:**00:00 - 08:27<br>
 **Enlace del video completo de las entrevistas:**<br>
 
 <br>
 
-**Resumen de la entrevista:**
-
+**Resumen de la entrevista:**<br>
+El entrevistado mostró un alto interés en el producto y sugirió algunos aspectos para mejorar. Propuso hacer el producto más llamativo visualmente y capturar mejor las percepciones de los clientes desde el momento en que ingresan, posiblemente a través de encuestas o análisis de datos iniciales. Además, recomendó la implementación de un libro de reclamaciones para facilitar la retroalimentación formal de los usuarios, mejorando así la atención al cliente y la resolución de problemas de manera efectiva.
 <br><br>
 
 **Segmento Objetivo 2: Viajeros Escolares**
@@ -2196,7 +2196,7 @@ Aquí se explican las evaluaciones realizadas utilizando principios heurísticos
 **Curso:** Desarrollo de Aplicaciones Open Source
 **Sección:** WX56
 **Profesores:** Todos
-**Cliente(s):**
+**Cliente(s):** Maomed Alexander Chocce Cruces,
 
 **Site o App a Evaluar:** Wanderlog
 
@@ -2215,16 +2215,36 @@ Los errores serán puntiados tomando en cuenta la siguiente escala de severidad
 
 | # | Problema | Escala de Severidad | Heurística/Principio violada(o) |
 |---|----------|---------------------|---------------------|
-| 1 | | | |
+| 1 | Mejorar el aspecto llamativo del producto | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 2 | Capturar percepción de los clientes al entrar | 2 | Inclusive Design: No capturar efectivamente las percepciones de los clientes al entrar podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios, al no asegurar una retroalimentación inicial inclusiva y adecuada desde el inicio de la interacción con el producto. |
+| 3 | Agregar el libro de reclamaciones | 2 | Inclusive Design: No proporcionar un libro de reclamaciones podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. Un libro de reclamaciones es crucial para asegurar que todos los usuarios tengan una vía justa y accesible para expresar sus preocupaciones y recibir respuestas adecuadas, promoviendo así la inclusión y la equidad en la retroalimentación del cliente. |
 
+----
 <br>
 
 **Descripción del Problemas:**
-- **Problema #1:**
-- **Severidad:**
-- **Heurística/Principio violada(o):**
-- **Problema:**
-- **Recomendación:**
+
+- **Problema #1: Falta de aspecto visualmente llamativo**
+- **Severidad:** Nivel 2
+- **Heurística/Principio violado(a):** Inclusive Design
+- **Problema:** El producto carece de un diseño que capture eficazmente la atención visual de los usuarios desde el primer contacto, lo que podría afectar la atracción inicial de nuevos usuarios y la percepción de la marca.
+- **Recomendación:** Mejorar el diseño visual del producto mediante la incorporación de elementos visuales más atractivos y una presentación más dinámica para captar mejor la atención del usuario.
+
+---
+
+- **Problema #2: Falta de captura de percepciones al entrar**
+- **Severidad:** Nivel 2
+- **Heurística/Principio violada(o):** Inclusive Design
+- **Problema:** El producto no cuenta con un mecanismo efectivo para capturar las percepciones y expectativas de los usuarios al ingresar, lo que podría limitar la comprensión inicial de sus necesidades y expectativas.
+- **Recomendación:** Implementar métodos como encuestas breves, análisis de comportamiento o ventanas emergentes interactivas para capturar de manera proactiva las percepciones de los usuarios al inicio de su interacción con el producto.
+
+---
+
+- **Problema #3: Ausencia de libro de reclamaciones**
+- **Severidad:** Nivel 2
+- **Heurística/Principio violado(a):** Inclusive Design
+- **Problema:** El producto no ofrece un libro de reclamaciones formal donde los usuarios puedan expresar sus comentarios, sugerencias o preocupaciones de manera estructurada y accesible.
+- **Recomendación:** Integrar un libro de reclamaciones en el producto, proporcionando una plataforma fácilmente accesible y visible para que los usuarios puedan presentar sus reclamaciones de manera equitativa y recibir respuestas oportunas y adecuadas.
 <br>
 
 
