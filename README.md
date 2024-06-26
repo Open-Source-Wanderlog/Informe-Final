@@ -103,7 +103,7 @@
             </tr> 
             <tr>                
                 <th>TF1</th>
-                <td></td>
+                <td>26/06/2024</td>
                 <td>Cortés Casas Joaquin Marcelo, Diaz Silva Fernando Josué, Cesar Castilla Pachas, Medina Chocce Karito Dianeth.</td>
                 <td>Implementación del Backend en el Frontend y hacer el despliegue del mismo</td>
              </tr>  
@@ -2141,7 +2141,7 @@ Colaboración en Figma: Se utilizaron wireframes y mockups en Figma para planifi
 
 Estos avances sentaron las bases para el desarrollo futuro del aplicativo, asegurando que todos los miembros de nuestro equipo estén alineados y puedan trabajar de manera eficiente.
 
-## TP
+## TP1
 En la segunda parte del proyecto, correspondiente a la TP, se avanzó significativamente en la mejora de la landing page y en la implementación del aplicativo web. Este periodo se centró en refinar los elementos existentes y en avanzar en las funcionalidades clave del aplicativo, cumpliendo con los objetivos establecidos para el sprint 2.
 
 ***Mejora de la Landing Page:***
@@ -2155,6 +2155,14 @@ Implementación de Nuevas Funcionalidades: Se añadieron funcionalidades adicion
 Integración Continua: Se utilizó GitHub para el control de versiones y GitHub Pages para el despliegue continuo de la landing page, asegurando que las mejoras y nuevas características estén disponibles para ser revisadas y testeadas por el equipo y los stakeholders.
 
 Estos logros representan un avance significativo hacia la finalización del proyecto WanderLog. La mejora continua de la landing page y la implementación progresiva del aplicativo web han preparado el camino para los próximos sprints, manteniendo un enfoque en la calidad y la usabilidad del producto final.
+
+## TB2
+En la segunda parte del proyecto, correspondiente a la TP, se avanzó significativamente en la mejora de la landing page y en la implementación del aplicativo web. Este periodo se centró en refinar los elementos existentes y en avanzar en las funcionalidades clave del aplicativo, cumpliendo con los objetivos establecidos para el sprint 2.
+
+## TF1
+En la segunda parte del proyecto, correspondiente a la TP, se avanzó significativamente en la mejora de la landing page y en la implementación del aplicativo web. Este periodo se centró en refinar los elementos existentes y en avanzar en las funcionalidades clave del aplicativo, cumpliendo con los objetivos establecidos para el sprint 2.
+
+
 
 
 ## Anexos:
