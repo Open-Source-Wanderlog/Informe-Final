@@ -1836,7 +1836,7 @@ A continuación se presentan capturas de los insights del repositorio del landin
   </tr>
   <tr>
     <th>Sprint Planning Background</th>
-    <td>3/06/2024</td>
+    <td>10/06/2024</td>
   </tr>
   <tr>
     <th>Time</th>
@@ -1856,18 +1856,16 @@ A continuación se presentan capturas de los insights del repositorio del landin
   </tr>
   <tr>
     <th>Sprint Review Summary</th>
-    <td>En el sprint anterior se ha logrado mejorar el landing page. Además, se ha adjuntado la primera versión del aplicativo web. 
+    <td>En el sprint anterior se empezó el backend para la creación de una API. 
 </td>
   </tr>
   <tr>
     <th>Sprint Retrospective Summary</th>
-    <td>Existe la oportunidad de mejora en ambos Landing Page y Aplicativo Web, para brindar un mayor nivel de calidad y consistencia.</td>
+    <td>Se trató de imp</td>
   </tr>
   <tr>
     <th>Sprint Goal</th>
-    <td>Desplegar la tercera versión del Landing Page
-Desplegar la segunda versión del Aplicativo web
-Desplegar la primera versión del Backend
+    <td>Implementar el Backend con el Frontend, hacer el deploy de la aplicación.
 </td>
   </tr>
   <tr>
@@ -1879,7 +1877,6 @@ Desplegar la primera versión del Backend
     <td>24 Puntos</td>
   </tr>
 </table>
-
 
 #### 5.2.4.2. Sprint Backlog 4
 
