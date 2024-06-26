@@ -2034,20 +2034,20 @@ A continuación se presentan capturas de los insights del repositorio del landin
   </tr>
   <tr>
     <th>Sprint Retrospective Summary</th>
-    <td>Se implemento el backend y se agregaron funcionalidades</td>
+    <td>Se implemento la primera versión del backend y se agregaron funcionalidades adicicionales al aplicativo web</td>
   </tr>
   <tr>
     <th>Sprint Goal</th>
-    <td>Implementar el Backend con el Frontend, hacer el deploy de la aplicación.
+    <td>Unir el backend con la implementación del frontend, haciendo el deploy de la aplicación.
 </td>
   </tr>
   <tr>
     <th>Sprint Velocity</th>
-    <td>15 Puntos</td>
+    <td>50 Puntos</td>
   </tr>
   <tr>
     <th>Sum of Story Points</th>
-    <td>24 Puntos</td>
+    <td>61 Puntos</td>
   </tr>
 </table>
 
