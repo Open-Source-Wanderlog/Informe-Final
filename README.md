@@ -79,7 +79,7 @@
                 <br> - Los anexos.</td>
             </tr>
             <tr>                
-                <th>TP</th>
+                <th>TP1</th>
                 <td>02/05/2024</td>
                 <td>Cortés Casas Joaquin Marcelo, Diaz Silva Fernando Josué, Cesar Castilla Pachas, Medina Chocce Karito Dianeth.</td>
                 <td>Adición de la sección y documentación del Sprint 3.
@@ -99,13 +99,13 @@
                 <th>TB2</th>
                 <td>07/06/2024</td>
                 <td>Cortés Casas Joaquin Marcelo, Diaz Silva Fernando Josué, Cesar Castilla Pachas, Medina Chocce Karito Dianeth.</td>
-                <td></td>
+                <td>Implementación de los bounded context correspondientes para el proyecto en Backend</td>
             </tr> 
             <tr>                
-                <th>TF</th>
+                <th>TF1</th>
                 <td></td>
                 <td>Cortés Casas Joaquin Marcelo, Diaz Silva Fernando Josué, Cesar Castilla Pachas, Medina Chocce Karito Dianeth.</td>
-                <td></td>
+                <td>Implementación del Backend en el Frontend y hacer el despliegue del mismo</td>
              </tr>  
         </tbody>
 </table>
@@ -129,12 +129,16 @@
                 xxx
                 <br><br>TB2<br>
                 xxx
+                <br><br>TF1<br>
+                xxx
                 <br><br><br>Díaz Silva, Fernando Josué
                 <br><br>TB1<br>
                 He desarrollado el capítulo 3, Requirements Specification y la documentación del landing page del capítulo 4.
-                <br><br>TP<br>
+                <br><br>TP1<br>
                 xxx
                 <br><br>TB2<br>
+                xxx
+                <br><br>TF1<br>
                 xxx
                 <br><br><br>Castilla Pachas Cesar Antonio
                 <br><br>TB1<br>
@@ -147,13 +151,18 @@
                 <br> - Creación del menú principal del aplicativo web
                 <br><br>TB2<br>
                 xxx
+                <br><br>TF1<br>
+                xxx
                 <br><br><br>Medina Chocce Karito Dianeth
                 <br><br>TB1<br>
                 He participado haciendo el capítulo 2 y la parte del 4.7
-                <br><br>TP<br>
-                xxx
+                <br><br>TP1<br>
+                He participado realizando la sección de Planes en el Frontend
                 <br><br>TB2<br>
-                xxx</td>
+                xx
+                <br><br>TF1<br>
+                He participado en la creación del User Profile y del Subscription en el Frontend
+                </td>
                 <td>Nos aseguramos de trabajar de forma coordinada y eficaz, avanzando lo más posible en una cantidad de tiempo límite. Para lograrlo, tuvimos que trabajar como equipo y discutir las decisiones importantes de manera organizada y objetiva. Para la realización de este trabajo hemos coordinado satisfactoriamente cada punto de este informe.</td>
             </tr>
             <tr>
@@ -161,16 +170,20 @@
                 <td>Cortés Casas, Joaquín Marcelo
                 <br><br>TB1<br>
                 Ha participado en la investigación de los principales competidores, además del desarrollo de los diagramas C4 y  de base de datos.
-                <br><br>TP<br>
+                <br><br>TP1<br>
                 xxx
                 <br><br>TB2<br>
+                xxx
+                <br><br>TF1<br>
                 xxx
                 <br><br><br>Díaz Silva, Fernando Josué
                 <br><br>TB1<br>
                 He desarrollado el capítulo 3, Requirements Specification y la documentación del landing page del capítulo 4.
-                <br><br>TP<br>
+                <br><br>TP1<br>
                 xxx
                 <br><br>TB2<br>
+                xxx
+                <br><br>TF1<br>
                 xxx
                 <br><br><br>Castilla Pachas Cesar Antonio
                 <br><br>TB1<br>
@@ -178,17 +191,22 @@
                 <br> - Capitulo 1
                 <br> - Landing Page
                 <br> - Web applications
-                <br><br><br>TP<br>
+                <br><br><br>TP1<br>
                 xxx
                 <br><br>TB2<br>
+                xxx
+                <br><br>TF1<br>
                 xxx
                 <br><br><br>Medina Chocce Karito Dianeth
                 <br><br>TB1<br>
                 He participado haciendo el capítulo 2 y la parte del 4.7
                 <br><br>TP<br>
-                xxx
+                He participado realizando la sección de Planes en el Frontend
                 <br><br>TB2<br>
-                xxx</td>
+                xxx
+                <br><br>TF1<br>
+                He participado en la creación del User Profile y del Subscription en el Frontend
+                </td>
                 <td>
                     Nos aseguramos de tener toda la información necesaria para entender el sector empresarial en el que nos vamos a involucrar, y poder usarla correctamente para el desarrollo de nuestra solución. Para hacerlo tuvimos que investigar sobre los problemas del sector, y las herramientas que usamos.</td>
             </tr> 
