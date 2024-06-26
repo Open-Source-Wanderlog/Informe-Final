@@ -8,7 +8,7 @@
     <strong>Ingeniería de Software - 2024-1</strong><br>
     <strong>Desarrollo de Aplicaiones Open Source - WX56</strong><br>
     <strong>Profesor: Mori Paiva, Hugo Allan</strong><br>
-    <br>INFORME DE TRABAJO FINAL - TB2
+    <br>INFORME DE TRABAJO FINAL - TF1
 </p>
 
 <p align="center">
@@ -126,20 +126,20 @@
                 <br><br>TB1<br>
                 Ha participado en la investigación de los principales competidores, además del desarrollo de los diagramas C4 y  de base de datos.
                 <br><br>TP<br>
-                xxx
+                 He participado en el desarrollo del nuevo landing page, además de la primera versión del aplicativo web.
                 <br><br>TB2<br>
-                xxx
+                He participado en el desarrollo de la tercera versión del landing page, incluyendo una segunda versión del app web y documentación del sprint 3.
                 <br><br>TF1<br>
-                xxx
+                He desarrollado e implementado la funcionalidad de student travel packages en el frontend y el backend.
                 <br><br><br>Díaz Silva, Fernando Josué
                 <br><br>TB1<br>
                 He desarrollado el capítulo 3, Requirements Specification y la documentación del landing page del capítulo 4.
                 <br><br>TP1<br>
-                xxx
+                He colaborado con el desarrollo e implementación de la solución en aspectos como componentes y el ruteo de los mismo 
                 <br><br>TB2<br>
-                xxx
+                Todo el backend y el despliegue del mismo 
                 <br><br>TF1<br>
-                xxx
+                Despliegue del aplicativo frontend y backend, componentes login y registro
                 <br><br><br>Castilla Pachas Cesar Antonio
                 <br><br>TB1<br>
                 He participado en :
@@ -171,20 +171,20 @@
                 <br><br>TB1<br>
                 Ha participado en la investigación de los principales competidores, además del desarrollo de los diagramas C4 y  de base de datos.
                 <br><br>TP1<br>
-                xxx
+                He participado en el desarrollo del nuevo landing page, además de la primera versión del aplicativo web
                 <br><br>TB2<br>
-                xxx
+                He participado en el desarrollo de la tercera versión del landing page, incluyendo una segunda versión del app web y documentación del sprint 3.
                 <br><br>TF1<br>
-                xxx
+                He desarrollado e implementado la funcionalidad de student travel packages en el frontend y el backend.
                 <br><br><br>Díaz Silva, Fernando Josué
                 <br><br>TB1<br>
                 He desarrollado el capítulo 3, Requirements Specification y la documentación del landing page del capítulo 4.
                 <br><br>TP1<br>
-                xxx
+                He colaborado con el desarrollo e implementación de la solución en aspectos como componentes y el ruteo de los mismo 
                 <br><br>TB2<br>
-                xxx
+                Todo el backend y el despliegue del mismo 
                 <br><br>TF1<br>
-                xxx
+                Despliegue del aplicativo frontend y backend, componentes login y registro
                 <br><br><br>Castilla Pachas Cesar Antonio
                 <br><br>TB1<br>
                 He participado en :
@@ -348,40 +348,40 @@ WanderLog es una startup que surge para ayudar a aquellas personas que necesitan
   </tr>
   <tr>
     <td>
-      <h2>[Cortés Casas, Joaquin Marcelo]</h2>
-      <p>[U202114545 - Ingeniería de Software]</p>
-      <p> [<br>
+      <h2>Cortés Casas, Joaquin Marcelo</h2>
+      <p>U202114545 - Ingeniería de Software</p>
+      <p> <br>
       Mi edad es de 20 años, soy un estudiante de la carrera de Ingeniería de Software en la UPC. Desde una edad temprana, he tenido un interés por el manejo de la tecnología y la interacción con los videojuegos. Tengo un fuerte sentido de liderazgo al asumir la responsabilidad de coordinar y motivar a los equipos de trabajo en momentos clave. Siempre estoy dispuesto a enfrentar nuevos desafíos y desarrollar mis conocimientos en el entorno del Software.
-]</p>
+</p>
     </td>
     <td><img src="assets/imgs/joaquin.png"  alt=" " width="50%"></img></td>
   </tr>
   <tr>
     <td>
-      <h2>[Castilla Pachas, Cesar Antonio]</h2>
-      <p>[U202218735 - Ingeniería de Software]</p>
-      <p> [<br>
+      <h2>Castilla Pachas, Cesar Antonio</h2>
+      <p>U202218735 - Ingeniería de Software</p>
+      <p> <br>
         Tengo 20 años y estudió la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Me encanta crear páginas web y dar soluciones creativas, soy una persona responsable y puntual. Además me encanta trabajar en equipo. Cada día me gusta aprender algo nuevo y poder ampliar mis conocimientos.
-      ]</p>
+      </p>
     </td>
    <td><img src="assets/imgs/cesar.png" alt=" " width="50%"></img></td>
 
   </tr>
   <tr>
     <td>
-      <h2>[Medina Chocce, Karito Dianeth]</h2>
-      <p>[U20221C769 - Ingeniería de Software]</p>
-      <p> [<br>
-        Tengo 20 años y me encuentro realizando mis estudios de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Desde muy pequeña me ha encantado el diseño de páginas web, la interacción de videojuegos y la inteligencia artificial. Soy una persona amable, responsable y comprometida.]</p>
+      <h2>Medina Chocce, Karito Dianeth</h2>
+      <p>U20221C769 - Ingeniería de Software</p>
+      <p> <br>
+        Tengo 20 años y me encuentro realizando mis estudios de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Desde muy pequeña me ha encantado el diseño de páginas web, la interacción de videojuegos y la inteligencia artificial. Soy una persona amable, responsable y comprometida.</p>
     </td>
 <td><img src="assets/imgs/karito.png" alt=" " width="50%"></img></td>
   </tr>
  <tr>
     <td>
-      <h2>[Diaz Silva, Fernando Josué]</h2>
-      <p>[U202112722 - Ingeniería de Software]</p>
-      <p> [<br>
-        Soy Fernando Diaz, tengo 20 años, me apasiona la tecnología, actualmente estudio la carrera de  ingeniería de software en la Universidad Peruana de Ciencias Aplicadas(UPC). A lo largo de la carrera he desarrollado distintas habilidades, mi principal enfoque en esta carrera parte del software como tal y el ámbito empresarial, para lo cual planeo realizar un MBA. Soy una persona proactiva, responsable y disciplinada. Estoy preparado para desarrollar un buen trabajo junto a mi equipo y aplicar todo el conocimiento adquirido a lo largo de mi carrera. ]</p>
+      <h2>Diaz Silva, Fernando Josué</h2>
+      <p>U202112722 - Ingeniería de Software</p>
+      <p> <br>
+        Soy Fernando Diaz, tengo 20 años, me apasiona la tecnología, actualmente estudio la carrera de  ingeniería de software en la Universidad Peruana de Ciencias Aplicadas(UPC). A lo largo de la carrera he desarrollado distintas habilidades, mi principal enfoque en esta carrera parte del software como tal y el ámbito empresarial, para lo cual planeo realizar un MBA. Soy una persona proactiva, responsable y disciplinada. Estoy preparado para desarrollar un buen trabajo junto a mi equipo y aplicar todo el conocimiento adquirido a lo largo de mi carrera. </p>
     </td>
 <td><img src="assets/imgs/fernando.png" alt=" " width="50%"></img></td>
   </tr>
